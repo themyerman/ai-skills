@@ -2,6 +2,14 @@
 
 Personal collection of Claude/Cursor agent skill docs covering web development, Python tooling, security, writing, and visual design.
 
+## Why skill files?
+
+Claude's built-in knowledge is broad but shallow in specialized areas — and it resets between conversations. Skill files solve both problems.
+
+A skill file is a curated, opinionated reference that Claude reads before working on a specific type of task. Instead of relying on Claude to reconstruct best practices from general training, skill files load the specific conventions, vocabulary, patterns, and judgment calls that matter for *your* work. The result is consistent behavior across sessions and projects without repeating yourself.
+
+They also let you encode knowledge that doesn't exist in Claude's training at all — house style, personal preferences, domain-specific workflows, or subject-matter expertise you bring yourself.
+
 Skills live in `skills/<name>/` as markdown files. Each skill has a `SKILL.md` (entry point) and one or more topic reference files.
 
 ## How it's wired up
