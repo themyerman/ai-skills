@@ -35,6 +35,8 @@ The **@ (REPOS)** column is for a workspace root one level **above** `ai-skills/
 | **CSS** layout and **styling** | [web-layout-css / SKILL](../skills/web-layout-css/SKILL.md) | `@ai-skills/skills/web-layout-css/SKILL.md` |
 | **Accessibility** (WCAG **habits**) | [web-accessibility / SKILL](../skills/web-accessibility/SKILL.md) | `@ai-skills/skills/web-accessibility/SKILL.md` |
 | **README** / **install** / **runbook** / plain **English** | [docs-clear-writing / SKILL](../skills/docs-clear-writing/SKILL.md) | `@ai-skills/skills/docs-clear-writing/SKILL.md` |
+| **Print production** (DPI, color profiles, bleed, file formats) | [visual-design / SKILL](../skills/visual-design/SKILL.md) | `@ai-skills/skills/visual-design/SKILL.md` |
+| **Design feedback** (composition, color, type hierarchy) | [visual-design / SKILL](../skills/visual-design/SKILL.md) | `@ai-skills/skills/visual-design/SKILL.md` |
 
 ### Web UI: default reading order (and @)
 

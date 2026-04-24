@@ -1,6 +1,6 @@
 # ai-skills
 
-Personal collection of Claude/Cursor agent skill docs covering web development, Python tooling, security, and writing.
+Personal collection of Claude/Cursor agent skill docs covering web development, Python tooling, security, writing, and visual design.
 
 Skills live in `skills/<name>/` as markdown files. Each skill has a `SKILL.md` (entry point) and one or more topic reference files.
 
@@ -30,6 +30,7 @@ For Cursor, run the installer script to symlink skills into a workspace:
 | [executive-reports](skills/executive-reports/SKILL.md) | BLUF structure, plain English for leadership |
 | [using-ai-assistants](skills/using-ai-assistants/SKILL.md) | Working effectively with AI in the editor |
 | [shift-left-program](skills/shift-left-program/SKILL.md) | Security champions, CI defaults, escalation |
+| [visual-design](skills/visual-design/SKILL.md) | Print production (DPI, color, bleed, formats) and design feedback vocabulary |
 
 ## Adding a skill
 
