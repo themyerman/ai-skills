@@ -27,6 +27,8 @@
 
 ## 2. Terms to avoid
 
+For a more detailed professional-context catalog — severity ratings, historical origins, and alternatives — see [indigenous-bias-awareness / terms-and-phrases](../indigenous-bias-awareness/terms-and-phrases.md).
+
 | Avoid | Why | Instead |
 |-------|-----|---------|
 | **Primitive** | Evolutionary framing that positions Indigenous cultures as precursors to modernity | Describe the tradition specifically |

@@ -34,3 +34,7 @@ A knowledge base for fluent conversation about Indigenous art across the America
 ## A note on framing
 
 Indigenous art is not a chapter in Western art history. It is not "primitive," "folk," "craft," or a precursor to modernism. These traditions have their own internal logics, critical frameworks, and histories that predate and exist independently of European contact. This skill tries to maintain that orientation throughout.
+
+## Related
+
+- [indigenous-bias-awareness / SKILL](../indigenous-bias-awareness/SKILL.md) — professional-context terms, behaviors, and historical context for anti-Indigenous bias

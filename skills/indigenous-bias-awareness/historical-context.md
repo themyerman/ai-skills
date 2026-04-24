@@ -90,6 +90,12 @@ Unlike some forms of bias, anti-Indigenous bias is frequently met with the respo
 
 ---
 
+## Related
+
+- [indigenous-art-americas / language-and-framing](../indigenous-art-americas/language-and-framing.md) — decolonial concepts (repatriation, survivance, blood quantum, appropriation vs. appreciation) in the context of art and cultural conversation
+
+---
+
 ## Further reading
 
 These are resources produced by or in close collaboration with Indigenous people and institutions:

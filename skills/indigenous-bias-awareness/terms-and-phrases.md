@@ -8,6 +8,8 @@
 
 ---
 
+For naming conventions and terminology guidance in art and cultural conversation contexts, see [indigenous-art-americas / language-and-framing](../indigenous-art-americas/language-and-framing.md).
+
 ## Severity scale
 
 - **Extremely High** — consider hate speech; no defensible use in any context

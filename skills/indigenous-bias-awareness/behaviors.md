@@ -58,13 +58,13 @@ Regalia — the ceremonial clothing, adornment, and objects used in ceremony and
 Many ceremonies are closed to non-members; others are open but not photographable. Assuming access and photographing without asking is a violation. When in doubt, ask before pointing a camera.
 
 ### Performing a ceremony or ritual element drawn from Indigenous traditions
-Non-Indigenous people leading or participating in sweat lodges, smudging ceremonies, vision quests, or other ceremonial practices without explicit invitation from the relevant nation or tradition is appropriation. Some practices are sacred and closed. Some people have been seriously harmed by unqualified practitioners offering commercial ceremony experiences.
+Non-Indigenous people leading or participating in sweat lodges, smudging ceremonies, vision quests, or other ceremonial practices without explicit invitation from the relevant nation or tradition is appropriation. Some practices are sacred and closed. Some people have been seriously harmed by unqualified practitioners offering commercial ceremony experiences. For more on the appropriation vs. appreciation distinction, see [indigenous-art-americas / language-and-framing](../indigenous-art-americas/language-and-framing.md#4-decolonial-concepts-useful-for-conversation).
 
 ### Naming products or teams after nations or cultural elements without consultation
 Winnebago, Apache, Mohawk, Jeep Cherokee, and countless other products use Indigenous names as brand assets without relationship or permission. In a professional context: naming a project, team, or product after an Indigenous nation, spiritual concept, or leader without meaningful consultation is appropriative.
 
 ### Praising "authentic" Indigenous aesthetics while devaluing contemporary Indigenous art
-"I like traditional Native art, but contemporary stuff feels less authentic" applies a colonial filter: Indigenous people are most valued when they remain frozen in a pre-contact past. Contemporary Indigenous art is not less Indigenous for being contemporary.
+"I like traditional Native art, but contemporary stuff feels less authentic" applies a colonial filter: Indigenous people are most valued when they remain frozen in a pre-contact past. Contemporary Indigenous art is not less Indigenous for being contemporary. See [indigenous-art-americas / contemporary](../indigenous-art-americas/contemporary.md) for context on contemporary Indigenous art movements and artists.
 
 ---
 
