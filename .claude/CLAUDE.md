@@ -42,6 +42,7 @@ The **@ (REPOS)** column is for a workspace root one level **above** `ai-skills/
 | **Decision record / ADR** | [product-writing / SKILL](../skills/product-writing/SKILL.md) | `@ai-skills/skills/product-writing/SKILL.md` |
 | **Indigenous art** of the Americas (conversation, context, critique) | [indigenous-art-americas / SKILL](../skills/indigenous-art-americas/SKILL.md) | `@ai-skills/skills/indigenous-art-americas/SKILL.md` |
 | **Indigenous bias awareness** (terms, behaviors, historical context) | [indigenous-bias-awareness / SKILL](../skills/indigenous-bias-awareness/SKILL.md) | `@ai-skills/skills/indigenous-bias-awareness/SKILL.md` |
+| **Digital art in context** (history, critical discourse, collector vocabulary) | [digital-art-context / SKILL](../skills/digital-art-context/SKILL.md) | `@ai-skills/skills/digital-art-context/SKILL.md` |
 
 ### Web UI: default reading order (and @)
 

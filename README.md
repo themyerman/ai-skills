@@ -34,6 +34,7 @@ For Cursor, run the installer script to symlink skills into a workspace:
 | [product-writing](skills/product-writing/SKILL.md) | Specs/PRDs, acceptance criteria, decision records (ADRs) |
 | [indigenous-art-americas](skills/indigenous-art-americas/SKILL.md) | Indigenous art of the Americas — pre-contact to contemporary, all regions |
 | [indigenous-bias-awareness](skills/indigenous-bias-awareness/SKILL.md) | Anti-Indigenous bias in professional contexts — terms, behaviors, historical context |
+| [digital-art-context](skills/digital-art-context/SKILL.md) | Digital art in context — history, relation to other media, critical discourse, collector vocabulary |
 
 ## Adding a skill
 

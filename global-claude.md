@@ -25,5 +25,6 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | Decision record / ADR | `~/.claude/ai-skills/skills/product-writing/SKILL.md` |
 | Indigenous art of the Americas (conversation, context, critique) | `~/.claude/ai-skills/skills/indigenous-art-americas/SKILL.md` |
 | Indigenous bias awareness (terms, behaviors, historical context) | `~/.claude/ai-skills/skills/indigenous-bias-awareness/SKILL.md` |
+| Digital art in context (history, critical discourse, collector vocabulary) | `~/.claude/ai-skills/skills/digital-art-context/SKILL.md` |
 
 Web UI default reading order: web-frontend-basics → web-layout-css → web-accessibility.

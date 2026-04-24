@@ -2,6 +2,8 @@
 
 **Hub:** [SKILL.md](SKILL.md)
 
+For the art-world context around digital prints — editions, scarcity, collector vocabulary, and critical discourse — see [digital-art-context / SKILL](../digital-art-context/SKILL.md).
+
 ---
 
 ## 1. Resolution
