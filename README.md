@@ -32,6 +32,7 @@ For Cursor, run the installer script to symlink skills into a workspace:
 | [shift-left-program](skills/shift-left-program/SKILL.md) | Security champions, CI defaults, escalation |
 | [visual-design](skills/visual-design/SKILL.md) | Print production (DPI, color, bleed, formats) and design feedback vocabulary |
 | [product-writing](skills/product-writing/SKILL.md) | Specs/PRDs, acceptance criteria, decision records (ADRs) |
+| [indigenous-art-americas](skills/indigenous-art-americas/SKILL.md) | Indigenous art of the Americas — pre-contact to contemporary, all regions |
 
 ## Adding a skill
 
