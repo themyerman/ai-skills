@@ -28,7 +28,8 @@ A knowledge base for fluent conversation about Indigenous art across the America
 | The broad landscape: regions, time periods, cross-cutting themes | [overview.md](overview.md) |
 | North American regional traditions | [regions-north-america.md](regions-north-america.md) |
 | Mesoamerican, Caribbean, and South American traditions | [regions-meso-south.md](regions-meso-south.md) |
-| Contemporary Indigenous art: movements, artists, institutions | [contemporary.md](contemporary.md) |
+| Contemporary Indigenous art: context, institutions, critical frameworks | [contemporary.md](contemporary.md) |
+| Major movements in depth (Woodland school, Northwest Coast, Kinngait, photography) | [movements.md](movements.md) |
 | Substantive artist bios and work summaries | [artists.md](artists.md) |
 | Indigenous futurism: origins, artists, literature, film, key concepts | [indigenous-futurism.md](indigenous-futurism.md) |
 | Terminology, framing, what to avoid, decolonial concepts | [language-and-framing.md](language-and-framing.md) |

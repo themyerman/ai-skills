@@ -75,6 +75,8 @@ This is necessarily partial. For substantive bios and work summaries see [artist
 
 ## 4. Movements and currents
 
+For in-depth coverage of specific movements see [movements.md](movements.md). Quick reference below.
+
 **Native American modernism** — the negotiation between modernist aesthetics and Indigenous identity and tradition. Started mid-20th century; IAIA was central to its development.
 
 **Ledger art revival** — contemporary artists working in the 19th-century ledger art tradition, both as homage and as contemporary political statement.

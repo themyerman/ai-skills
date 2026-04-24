@@ -108,6 +108,10 @@ They share: the refusal of extinction narratives, the insistence on imagining fu
 
 **Never Alone (Kisima Ingitchuna)** (2014, Upper One Games / E-Line Media, in partnership with the Iñupiaq community) — a puzzle platformer based on an Iñupiaq story, developed in direct collaboration with Cook Inlet Tribal Council elders, storytellers, and community members. Accompanied by documentary footage of Iñupiaq cultural practitioners. One of the first and best examples of an Indigenous community leading the development of a commercial game rooted in their own oral tradition.
 
+**Coyote & Crow** (2021, Coyote & Crow LLC) — a tabletop roleplaying game set in an alternate-history North America where European colonization never occurred. Designed, written, and illustrated primarily by Native American creators, it is as significant for its visual world-building as for its mechanics. The art direction is explicitly Indigenous futurist: cities, technology, fashion, and architecture that look like they emerged organically from Indigenous aesthetic traditions — not Western modernity with Native overlay, but a genuinely distinct civilizational visual vocabulary. Tall cities with design languages drawn from Plains, Southwest, Woodland, and other traditions; technology that is recognizably advanced but not European-derived.
+
+The game was successfully crowdfunded and has become a reference point for what Indigenous futurist world-building looks like in practice. Its existence as a commercial product — with a large Indigenous creative team and significant mainstream uptake — is itself a futurist act: Indigenous people imagining and building the future in a genre (tabletop RPG) that has been almost entirely dominated by European fantasy traditions. The art book and sourcebooks are worth examining as standalone examples of Indigenous futurist visual design.
+
 ---
 
 ## How to use this concept in conversation
