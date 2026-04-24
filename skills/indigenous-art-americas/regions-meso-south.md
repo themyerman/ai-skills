@@ -49,7 +49,56 @@ The Mexica/Aztec empire at its peak was the dominant power in central Mexico and
 
 ---
 
-## 2. Caribbean
+## 2. Lower Central America: Panama and Costa Rica
+
+This region — sometimes called the Isthmo-Colombian area — sits between Mesoamerica and the northern Andes and is frequently underrepresented in both bodies of scholarship. It was not a periphery; it was a corridor of exchange between two of the most complex culture areas in the Americas, and it produced distinct artistic traditions of its own.
+
+### Pre-Columbian traditions
+
+**Diquís goldwork (Costa Rica / western Panama)**
+The Diquís Delta cultures produced some of the finest metalwork in the pre-Columbian Americas — cast tumbaga (a gold-copper alloy valued for its warm color and acoustic properties) figures, animal pendants, and ornamental objects. Frog, eagle, and crocodilian figures are the most common subjects; these were not purely aesthetic objects but carried social and cosmological significance. The best collections are at the Museo del Oro Precolombino in San José and the Museo Antropológico Reina Torres de Araúz in Panama City.
+
+**Stone spheres (esferas de piedra)**
+Near-perfect granite spheres produced by Diquís cultures in the Sierpe delta region of Costa Rica, ranging from a few centimeters to over two meters in diameter. Purpose is debated — astronomical alignment, territorial markers, and status objects have all been proposed. Declared a UNESCO World Heritage Site in 2014. They are among the most formally striking and genuinely mysterious objects in the pre-Columbian Americas.
+
+**Coclé polychrome ceramics (central Panama)**
+The Coclé culture (c. 500–1100 CE) produced highly geometric polychrome painted pottery with distinctive crocodilian, serpent, and abstract motifs in red, black, and purple on cream. The Sitio Conte burial site produced exceptional examples alongside gold and worked bone objects. Coclé ware is immediately recognizable and distinct from both Mesoamerican and Andean ceramic traditions.
+
+**Chorotega and Nicoya ceramics (Guanacaste, Costa Rica)**
+The Nicoya Peninsula and Guanacaste region produced polychrome ceramics with complex figural and geometric decoration — jaguar effigies, effigy vessels, and painted bowls in the Chorotega tradition. These are among the most collected pre-Columbian ceramics in Central America; fakes are widespread in the market.
+
+**Gran Chiriquí (Panama/Costa Rica border zone)**
+The archaeological zone spanning the border produced distinctive gold and stone work, including carved stone metates (grinding tables) with elaborate figural supports that were clearly prestige objects rather than utilitarian tools.
+
+### Living traditions
+
+**Mola (Guna/Kuna people, Panama and the San Blas archipelago)**
+The most internationally recognized art form from the region and one of the most sophisticated textile traditions in the Americas. A mola is a multilayer reverse appliqué panel — multiple layers of cloth are stitched together and then cut away in sequence to reveal geometric and figurative designs in contrasting colors. Traditionally made as the front and back panels of a blouse (nagua), molas encode cosmological imagery, animals, plants, and increasingly contemporary subjects.
+
+The Guna people have maintained remarkable cultural and economic autonomy on the Comarca Guna Yala (formerly San Blas islands). Guna women control the mola economy and have organized collectively to protect their designs from commercial appropriation. The finest work has tight, even stitching, complex layering, and distinctive design vocabulary — distinguishable immediately from commercial imitations. Each mola is original; no two are alike.
+
+**Chácara and nagua (Ngäbe-Buglé, western Panama and southern Costa Rica)**
+The Ngäbe-Buglé are the largest Indigenous group in Panama and also have significant communities in Costa Rica. Two art forms are central:
+
+- **Chácara** — woven bags made from pita fiber (from agave), with tight geometric patterns in natural and dyed colors. Pattern vocabularies are community- and family-specific. The chácara is a traditional carrying object that has entered the art market; the finest examples involve weeks of work.
+- **Nagua** — the traditional women's dress, characterized by colorful geometric patchwork and appliqué in horizontal bands. Each band of pattern has specific design conventions; the overall composition is distinctive to Ngäbe-Buglé visual culture. The nagua is both everyday garment and cultural statement, and has become a symbol of Ngäbe-Buglé identity in political and cultural contexts.
+
+**Emberá and Wounaan (eastern Panama / Darién)**
+Two culturally related peoples of the Darién region produce what are considered among the finest woven baskets in the Americas:
+
+- **Woven basketry** from chunga palm and nahuala fiber, with intricate geometric patterns in natural dyes; forms range from flat plates to deep vessels. Wounaan work is particularly prized; construction is so tight the baskets can hold water.
+- **Tagua carving** — tagua is the seed of the ivory palm (vegetable ivory), a dense white material that carves like elephant ivory. Emberá and Wounaan carvers produce small animal figures of extraordinary detail, often with finely incised surface patterns. A significant contemporary market exists through fair-trade channels.
+- Both communities also maintain body painting traditions and produce carved wooden figures.
+
+**Boruca devil masks (Costa Rica)**
+The Boruca (Brunca) people of southwestern Costa Rica produce carved balsa wood masks used in the annual Fiesta de los Diablitos (Festival of the Little Devils), a multi-day ceremony dramatizing the Boruca resistance to Spanish conquest — the "devils" (Boruca) ultimately defeat the "bull" (Spain). The masks are painted in vivid red, black, and white; each carver has a recognizable style and the designs are increasingly varied and ambitious. Boruca masks are widely collected; the community has developed a significant art economy while maintaining the ceremony's integrity.
+
+**Bribri and Cabécar (Talamanca region, Costa Rica / Panama border)**
+Two peoples of the Talamanca mountains with related languages and cultural systems. Both maintain weaving and basket traditions; the Bribri have a matrilineal clan system that structures ceremonial and artistic knowledge. Less market-visible than the Guna or Boruca but with distinct traditions worth knowing.
+
+---
+
+## 3. Caribbean
 
 ### Taíno
 The Taíno people occupied the Greater Antilles (Cuba, Hispaniola, Puerto Rico, Jamaica) and the Bahamas at the time of European contact. Rapid depopulation due to disease, enslavement, and violence by the early 16th century severely disrupted their culture, though Taíno ancestry and cultural revival movements are significant today.
@@ -62,7 +111,7 @@ The Taíno people occupied the Greater Antilles (Cuba, Hispaniola, Puerto Rico, 
 
 ---
 
-## 3. Andes
+## 4. Andes
 
 The Andean region — covering modern Peru, Bolivia, Ecuador, and parts of Chile, Colombia, and Argentina — produced one of the world's most technically sophisticated textile traditions, and the Inca empire was the largest in the pre-contact Americas.
 
@@ -87,7 +136,7 @@ In the Andes, textiles were the prestige medium — more valued than gold or sil
 
 ---
 
-## 4. Amazon Basin
+## 5. Amazon Basin
 
 The Amazon is often underrepresented in discussions of pre-contact art because organic materials (feathers, bark cloth, body paint) do not survive archaeologically and because the region lacked monumental architecture. This is a failure of the archive, not of the cultures.
 
@@ -99,7 +148,7 @@ The Amazon is often underrepresented in discussions of pre-contact art because o
 
 ---
 
-## 5. Southern Cone
+## 6. Southern Cone
 
 ### Mapuche (Chile and Argentina)
 One of the few peoples to successfully resist Inca and then Spanish conquest for centuries (the Arauco War lasted from 1536 to 1818). Art as cultural assertion is central to Mapuche identity.
