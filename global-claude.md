@@ -20,5 +20,8 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | Shift-left security culture | `~/.claude/ai-skills/skills/shift-left-program/SKILL.md` |
 | Print production (DPI, color profiles, bleed, file formats) | `~/.claude/ai-skills/skills/visual-design/SKILL.md` |
 | Design feedback (composition, color, type hierarchy) | `~/.claude/ai-skills/skills/visual-design/SKILL.md` |
+| Spec / PRD, user stories, scope | `~/.claude/ai-skills/skills/product-writing/SKILL.md` |
+| Acceptance criteria | `~/.claude/ai-skills/skills/product-writing/SKILL.md` |
+| Decision record / ADR | `~/.claude/ai-skills/skills/product-writing/SKILL.md` |
 
 Web UI default reading order: web-frontend-basics → web-layout-css → web-accessibility.

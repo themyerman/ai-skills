@@ -31,6 +31,7 @@ For Cursor, run the installer script to symlink skills into a workspace:
 | [using-ai-assistants](skills/using-ai-assistants/SKILL.md) | Working effectively with AI in the editor |
 | [shift-left-program](skills/shift-left-program/SKILL.md) | Security champions, CI defaults, escalation |
 | [visual-design](skills/visual-design/SKILL.md) | Print production (DPI, color, bleed, formats) and design feedback vocabulary |
+| [product-writing](skills/product-writing/SKILL.md) | Specs/PRDs, acceptance criteria, decision records (ADRs) |
 
 ## Adding a skill
 
