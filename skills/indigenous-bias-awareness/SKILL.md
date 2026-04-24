@@ -17,7 +17,7 @@ description: >-
 
 A professional reference for recognizing and avoiding anti-Indigenous bias — the terms, behaviors, and structural assumptions that cause harm, often without the intent to do so. Anti-Indigenous bias is unusually normalized: phrases that would be immediately recognized as offensive if directed at other groups pass without comment when directed at Indigenous people.
 
-This skill was authored from lived experience by Tom Myer (Anishinaabe), based on 27+ years of working in technology and a specific research effort cataloging problematic content in workplace tools. It is not an academic exercise.
+This skill was authored from lived experience by Tom Myer (Cayuga/Haudenosaunee and Ngäbe-Buglé), based on 27+ years of working in technology and a specific research effort cataloging problematic content in workplace tools. It is not an academic exercise.
 
 **A note on tone:** Most harm documented here comes from people with no overt prejudice. Decades of normalization — sports mascots, Hollywood stereotypes, idioms baked into business English — make these phrases and behaviors feel unremarkable. A little education is usually enough to prompt immediate change.
 
