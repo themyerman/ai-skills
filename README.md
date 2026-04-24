@@ -36,7 +36,7 @@ For Cursor, run the installer script to symlink skills into a workspace:
 
 1. Create `skills/<new-skill-name>/SKILL.md` (add `reference.md` and other topic files as needed).
 2. Add a row to the table above.
-3. Add an entry to `~/.claude/CLAUDE.md`.
+3. Add an entry to `global-claude.md` (symlinked from `~/.claude/CLAUDE.md`).
 4. Re-run `scripts/install-cursor-symlinks.sh` if you use Cursor.
 
 ## License
