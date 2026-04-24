@@ -38,7 +38,7 @@ Key moments:
 
 ## 3. Key artists (North America)
 
-This is necessarily partial. These are artists significant to the development or current state of the field.
+This is necessarily partial. For substantive bios and work summaries see [artists.md](artists.md). These are artists significant to the development or current state of the field.
 
 **Historical / foundational:**
 - **Norval Morrisseau** (Anishinaabe, 1932–2007) — founder of the Woodland school / Legend painting. Drew on birchbark scroll traditions and Midewiwin ceremony; his paintings opened a path for other Indigenous artists to work from within their own visual traditions rather than assimilating to Western modernism. Called "Copper Thunderbird" by his community.
@@ -81,7 +81,7 @@ This is necessarily partial. These are artists significant to the development or
 
 **Beadwork as fine art** — a significant movement repositioning beadwork from "craft" to contemporary fine art. Artists like Jeffrey Gibson, Wendy Ponca, and many others. The formal precision, conceptual depth, and labor involved in major beadwork pieces makes the "craft" dismissal particularly pointed.
 
-**Indigenous futurism** — term coined by Anishinaabe scholar Grace Dillon; encompasses science fiction, speculative art, and visual work that imagines Indigenous futures rather than only engaging with the past or present of colonial experience. Related to Afrofuturism. Artists including Steven Paul Judd, Cannupa Hanska Luger, and others work in this space.
+**Indigenous futurism** — term coined by Anishinaabe scholar Grace Dillon; encompasses science fiction, speculative art, and visual work that imagines Indigenous futures rather than only engaging with the past or present of colonial experience. Related to but distinct from Afrofuturism. See [indigenous-futurism.md](indigenous-futurism.md) for full coverage.
 
 **Land-based art and Land Back** — art explicitly connected to land sovereignty; cairns, interventions, landscape work. Standing Rock (2016) was a significant catalyst; the mirror shields project by Cannupa Hanska Luger is one example.
 

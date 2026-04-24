@@ -29,6 +29,8 @@ A knowledge base for fluent conversation about Indigenous art across the America
 | North American regional traditions | [regions-north-america.md](regions-north-america.md) |
 | Mesoamerican, Caribbean, and South American traditions | [regions-meso-south.md](regions-meso-south.md) |
 | Contemporary Indigenous art: movements, artists, institutions | [contemporary.md](contemporary.md) |
+| Substantive artist bios and work summaries | [artists.md](artists.md) |
+| Indigenous futurism: origins, artists, literature, film, key concepts | [indigenous-futurism.md](indigenous-futurism.md) |
 | Terminology, framing, what to avoid, decolonial concepts | [language-and-framing.md](language-and-framing.md) |
 
 ## A note on framing
