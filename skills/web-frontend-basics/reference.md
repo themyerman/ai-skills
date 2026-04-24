@@ -30,28 +30,115 @@
 - **Don’t** put **secrets** in front-end code; **API** keys in env at **build** time for public SPAs is a product decision — internal tools usually **proxy** through Flask.
 - **User / ticket** text: if it ever goes to an **LLM** or is **injected** into the DOM, follow **llm-integrations-safety** and **escape** (Jinja `{{ }}` is escaped by default).
 
-## 5. XSSI, JSON, and cookies
+**`data-*` attributes as JS hooks** — use CSS classes for styling only; use `data-*` for JS state and data. Renaming a visual class then breaks JS if you mixed the two:
+
+```html
+<!-- fragile: visual class doubles as JS selector -->
+<button class="btn btn-primary add-to-cart">Add</button>
+
+<!-- resilient: styling and behavior are decoupled -->
+<button class="btn btn-primary" data-action="add-to-cart" data-sku="OWL-001">Add</button>
+```
+
+```js
+document.addEventListener(‘click’, e => {
+  const btn = e.target.closest(‘[data-action="add-to-cart"]’);
+  if (!btn) return;
+  addToCart(btn.dataset.sku);
+});
+```
+
+**IIFE module pattern** — encapsulate a feature without a bundler. No globals, no build step, works in a plain `<script>` tag:
+
+```js
+(function () {
+  ‘use strict’;
+  const STORAGE_KEY = ‘my-cart’;
+
+  function getCart() {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || ‘[]’);
+  }
+
+  function init() { /* wire events */ }
+
+  document.addEventListener(‘DOMContentLoaded’, init);
+}());
+```
+
+**Client-side JSON search** — for catalogs under ~2 000 items a pre-built static index beats adding a search service. Generate `search.json` at deploy time (array of `{ slug, title, tags[], story }`). Filter on input:
+
+```js
+const results = index.filter(item =>
+  terms.every(t =>
+    item.title.toLowerCase().includes(t) ||
+    item.tags.some(tag => tag.includes(t))
+  )
+);
+```
+
+Regenerate the index when content changes. Use `aria-live="polite"` on the results region so screen readers announce the count — see [web-accessibility §8](../web-accessibility/reference.md#8-live-regions).
+
+## 5. Images
+
+**Always include `width` and `height`** — the browser reserves layout space before the image loads, preventing layout shift (CLS). The values should match the image's intrinsic dimensions (CSS can scale it from there):
+
+```html
+<!-- grid card — lazy load, dimensions prevent layout shift -->
+<img src="/prints/owl-thumb.jpg" alt="Superb Owl print"
+     width="480" height="480" loading="lazy">
+
+<!-- hero — above the fold, load immediately -->
+<img src="/prints/owl-display.jpg" alt="Superb Owl"
+     width="900" height="1200" loading="eager">
+```
+
+**`loading` attribute:**
+- `loading="lazy"` — defer off-screen images (grids, cards, below-fold content).
+- `loading="eager"` — force immediate load for hero images and anything above the fold. Be explicit; don't rely on browser default.
+
+**Three-variant pattern** for image-heavy sites:
+
+| Variant | Use | Notes |
+|---------|-----|-------|
+| Thumb | Grids, cards, cart thumbnails | Square crop, e.g. 480×480 |
+| Display | Product/detail page hero | Full resolution |
+| OG | `<meta property="og:image">` only | ~1200×630, lives in `/images/` not alongside content |
+
+Name files by slug + suffix: `superb-owl-thumb.jpg`, `superb-owl-display.jpg`. Keeps filenames predictable and scriptable.
+
+**Decorative images:** `alt=""` (empty string, not omitted) so screen readers skip them.
+
+**Aspect ratio on the container** when image dimensions aren't known at author time, so the slot exists before the image loads:
+
+```css
+.card-image { aspect-ratio: 1 / 1; overflow: hidden; }
+.card-image img { width: 100%; height: 100%; object-fit: cover; }
+```
+
+## 6. XSSI, JSON, and cookies
 
 - **JSON** responses: prefer **POST** with **Content-Type: application/json** and **CSRF** token in header or body for **state-changing** actions; **GET** JSON **can** leak cross-origin if misconfigured—don’t put **sensitive** lists behind GET.
 - **Cookies:** `SameSite=Lax` or `Strict` for **session**; `Secure` in prod; know **CSRF** rules for **custom** `fetch` from same site (same-origin form POST is often simpler for internal UIs).
 - If you add **CSP** (Flask or proxy), **avoid** `'unsafe-inline'` for **script** long-term; use **nonce** or small **external** files.
 
-## 6. Jinja and static assets
+## 7. Jinja and static assets
 
 - **`url_for('static', filename='js/…')`** for script `src` so deploy paths stay correct.
 - **Pass JSON** to JS with `tojson` filter in a **`<script type="application/json">` id="…"** block, then `JSON.parse` in your module — **not** by pasting unescaped into a JS string (XSS if data ever has `</script>`).
 - Re-read **user-controlled** output rules in [flask-serving](../python-internal-tools/flask-serving.md) §5.
 
-## 7. Checklist (new page or widget)
+## 8. Checklist (new page or widget)
 
 - [ ] **Semantic** structure and **one** `h1`
 - [ ] **Labels** on all inputs; **error** text linked with `aria-describedby` when you add client validation
 - [ ] **POST** for mutations; **CSRF** if session cookie auth
 - [ ] **`fetch`** handles **non-ok** and **parse** errors
 - [ ] **No** secrets in JS; **no** raw user HTML without trust path
+- [ ] **Images** have `width`, `height`, and correct `loading` attribute
+- [ ] **JS hooks** use `data-*` attributes, not styling class names
 - [ ] **a11y** pass: [web-accessibility](../web-accessibility/SKILL.md) quick checks
 
-## 8. When to read more
+## 9. When to read more
 
 - **Layout and responsive:** [web-layout-css reference](../web-layout-css/reference.md)  
 - **Flask, auth, headers, CSRF app-wide:** [flask-serving](../python-internal-tools/flask-serving.md)  

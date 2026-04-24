@@ -104,6 +104,28 @@
 
 - **Toasts** / **inline** **status** after **save:** **`role="status"`** + **polite** `aria-live` (or **`role="status"`** implies **live** region) so SR **announces** without **stealing** **focus** from a **form** mid-type.
 - **Urgent** **errors** that need **immediate** notice: `role="alert"` (assertive) — use **sparingly**.
+- **Any region that updates dynamically** — search results, cart count, filter output — needs `aria-live="polite"` so screen readers announce changes without a focus move:
+
+```html
+<!-- search results container -->
+<p aria-live="polite" id="search-meta">Found 12 prints matching "raven"</p>
+
+<!-- cart badge — update textContent in JS, SR announces the new count -->
+<span class="cart-count" aria-live="polite" aria-atomic="true">3</span>
+```
+
+Use `aria-atomic="true"` when the whole value should be read as a unit (a count), not word by word.
+
+**`aria-current="page"`** on the active nav link — screen readers announce "(current)" without extra text:
+
+```html
+<nav aria-label="Site">
+  <a href="/prints/" aria-current="page">Prints</a>
+  <a href="/about/">About</a>
+</nav>
+```
+
+Set it in server-rendered templates or JS on page load; remove it from all other links in the same nav.
 
 ---
 
@@ -112,6 +134,8 @@
 - [ ] **Tab** through **entire** page: **order** and **visible** **focus**  
 - [ ] **Required** and **error** not **color-only**  
 - [ ] **Headings** and **one** **`main`**  
+- [ ] **Active nav link** has `aria-current="page"`  
+- [ ] **Dynamic regions** (search results, cart count, status messages) have `aria-live="polite"`  
 - [ ] **Modal** (if any): **trap** + **Esc** + **return** **focus**  
 - [ ] **Zoom** 200%: no **content** **lost** without **scroll** **path** (or **intentional** **horizontal** **scroll** for **table**)  
 - [ ] **`prefers-reduced-motion`** doesn’t **break** **layout** (transitions to **0.01ms** ok)

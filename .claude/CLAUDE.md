@@ -1,10 +1,10 @@
-# Developer Guide: Writing Production-Quality Python with Claude
+# Engineering Practices
 
 This is the **canonical** copy of the guide, versioned in the **`ai-skills`** repository at **`.claude/CLAUDE.md`**. A parent workspace can keep **`<REPOS>/.claude/CLAUDE.md`** as a **symlink** to this file if that layout works for you.
 
-**Sharing with others:** The guide is **self-contained** in this repo. You do **not** need access to any other codebase. The first two **addenda** are **optional illustrations** of common internal-tool shapes; **substitute** your own package and ticket namespaces, or **ignore** the addenda and use the **numbered** sections (1+) only.
+**Scope:** The guide covers **Python tooling** (§1–13) with stand-alone skills for **web** (HTML/CSS/a11y), **docs**, **security**, **shell**, and **AI assistant habits** — see the [Skill routing](#skill-routing) table. The first two **addenda** are optional illustrations of common tool shapes; substitute your own package names or ignore them.
 
-**Cursor skills in `ai-skills`:** Full **routing** tables, **`@` paths**, and **agent** rules are in [Skill routing](#skill-routing) below. In one line: **`python-internal-tools/`** is the slice of this file; **`llm-integrations-safety/`** is §9; **`shift-left-program/`** is a **thin, org-neutral** take on **building a shift-left security** culture (not a substitute for your employer’s process); **`data-handling-pii`**, **`secrets-management`**, **web-frontend-basics** / **web-layout-css** / **web-accessibility**, **docs-clear-writing**, **executive-reports**, **shell-csv-pipelines**, and **using-ai-assistants** are stand-alone (see the table). Keep this section in sync with **[`SKILLS.md`](../SKILLS.md)**. **Cursor** symlinks: `ai-skills/scripts/install-cursor-symlinks.sh` (see **`ai-skills` `README`**).
+**Cursor** symlinks: `ai-skills/scripts/install-cursor-symlinks.sh` (see `ai-skills` `README`).
 
 Relative links in this file to `../skills/...` resolve from this directory: **`ai-skills/.claude/`** → sibling **`ai-skills/skills/`** (in-repo); your editor may resolve them the same if you opened this file through a **symlink** from a parent **`.claude/`**.
 
@@ -18,7 +18,7 @@ Relative links in this file to `../skills/...` resolve from this directory: **`a
 
 ### By goal (pick one) — and @ paths (REPOS)
 
-Keep this aligned with [`SKILLS.md`](../SKILLS.md). The **@ (REPOS)** column is for a workspace root one level **above** `ai-skills/`.
+The **@ (REPOS)** column is for a workspace root one level **above** `ai-skills/`.
 
 | I need to… | Open | @ (REPOS) |
 |------------|------|------------|
