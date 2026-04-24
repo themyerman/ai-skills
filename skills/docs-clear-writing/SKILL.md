@@ -1,13 +1,14 @@
 ---
 name: docs-clear-writing
 description: >-
-  Clear technical writing: scannable structure, install guides, how-tos,
-  runbooks, READMEs, troubleshooting, ADR/changelog voice. Hub: readmes,
-  installation-guides, user-instructions-howto, plain-english. Pairs with
-  executive-reports (exec narrative) and python-internal-tools documentation (where
-  to put files). Triggers: document this, user guide, onboarding, operator,
-  SOP, procedure, plain language, define jargon, layman-friendly, README
-  rewrite, installation steps, verify the steps.
+  Clear writing of all kinds: technical docs (READMEs, install guides, how-tos,
+  runbooks), blog posts, social media (Mastodon, Instagram, Patreon), and web
+  copy (headlines, CTAs, about pages, product descriptions). Hub: readmes,
+  installation-guides, user-instructions-howto, plain-english, content-writing.
+  Pairs with executive-reports (exec narrative) and python-internal-tools
+  documentation (where to put files). Triggers: document this, user guide,
+  onboarding, SOP, plain language, README rewrite, blog post, caption,
+  Patreon post, web copy, about page, social media.
 ---
 
 # docs-clear-writing
@@ -26,6 +27,7 @@ The **umbrella** for **how** to write **clear** technical text: **scannable** he
 | **Procedures, SOPs, “how to,”** operator steps with decisions and rollback | **[user-instructions-howto.md](user-instructions-howto.md)** |
 | **Exec / stakeholder** summary, rollup, appendices, partner lens | **[`executive-reports`](../executive-reports/SKILL.md)** |
 | **Plain English**, **accessible** wording, **jargon** discipline (not chatty) | **[plain-english.md](plain-english.md)** |
+| **Blog posts, social media** (Mastodon, Instagram, Patreon), **web copy** | **[content-writing.md](content-writing.md)** |
 | **Where** docs live in a **Python** project (README, `docs/`, `WORK.md`) and **Jira/CLI** links | **[`documentation.md`](../python-internal-tools/documentation.md)** |
 
 ## When to use
@@ -48,6 +50,7 @@ The **umbrella** for **how** to write **clear** technical text: **scannable** he
 - **[installation-guides.md](installation-guides.md)** — setup, environments, “green light” checks.  
 - **[user-instructions-howto.md](user-instructions-howto.md)** — one goal per page, steps, branches, failure recovery.  
 - **[plain-english.md](plain-english.md)** — **layman-friendly** and **professional**; **define** **terms**; **no** flippant **bloat**.
+- **[content-writing.md](content-writing.md)** — blog posts, social media (Mastodon, Instagram, Patreon), and web copy.
 
 ## Source
 
