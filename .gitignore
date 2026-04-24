@@ -1,15 +1,11 @@
-# OS
+# macOS
 .DS_Store
-Thumbs.db
-*.swp
-*~
 
-# Env and secrets (if you add tooling later)
-.env
-.env.*
-!.env.example
+# Editor
+.idea/
+.vscode/
 
-# Python
+# Python (if tooling is ever added)
 __pycache__/
 *.py[cod]
 .venv/
@@ -17,17 +13,8 @@ venv/
 .pytest_cache/
 .mypy_cache/
 
-# Node (if you add any JS tooling)
-node_modules/
-
-# Logs
+# Logs / scratch
 *.log
 logs/
-
-# Editor (optional: remove if you want to commit shared settings)
-# .idea/
-# .vscode/
-
-# Local override / scratch
-.local/
 scratch/
+.local/
