@@ -115,19 +115,96 @@ Name files by slug + suffix: `superb-owl-thumb.jpg`, `superb-owl-display.jpg`. K
 .card-image img { width: 100%; height: 100%; object-fit: cover; }
 ```
 
-## 6. XSSI, JSON, and cookies
+## 6. Mobile nav hamburger pattern
+
+Minimal accessible toggle — no library needed:
+
+```html
+<nav>
+  <a class="nav-brand" href="/">Site Name</a>
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">...</ul>
+</nav>
+```
+
+```css
+.nav-toggle { display: none; flex-direction: column; gap: 5px;
+              background: none; border: none; cursor: pointer; padding: 4px; }
+.nav-toggle span { display: block; width: 22px; height: 2px; background: currentColor;
+                   transition: transform .2s, opacity .2s; }
+
+@media (max-width: 720px) {
+  .nav-toggle { display: flex; }
+  .nav-links { display: none; }
+  .nav-links.open { display: flex; flex-direction: column; }
+
+  /* Animate to X when open */
+  .nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+  .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+}
+```
+
+```js
+// js/nav.js
+const toggle = document.querySelector('.nav-toggle');
+const links  = document.querySelector('.nav-links');
+toggle.addEventListener('click', () => {
+  const open = links.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', open);
+});
+```
+
+Key points: `aria-expanded` on the button (not the list), `aria-label` on the button (the spans are decorative), Y offset for X animation = span height + gap (2px + 5px = 7px).
+
+## 6a. Embedding a Google Form
+
+Get the form embed URL by opening the form in Google Forms → Send → Embed → copy the iframe src. The URL ends with `?embedded=true`:
+
+```html
+<iframe
+  src="https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true"
+  width="100%" height="1400" frameborder="0">
+  Loading form…
+</iframe>
+```
+
+If you only have a short link (`forms.gle/…`), resolve it to the full URL:
+```bash
+curl -sI https://forms.gle/SHORTCODE | grep -i location
+```
+
+Height is trial-and-error — set it high initially (1400px), then trim. The form doesn't resize itself.
+
+## 6b. `sed` replacement string gotcha
+
+`&` in a `sed` replacement string means "the matched text" — not a literal ampersand. This breaks HTML entities:
+
+```bash
+# WRONG — &nbsp; becomes matchedtext + nbsp;
+sed -i '' 's/foo/bar \&nbsp;/' file.html
+
+# RIGHT — escape the & or use a different tool
+sed -i '' 's/foo/bar \&amp;/' file.html   # use \& for literal &
+```
+
+For multi-file HTML edits prefer the Edit tool (exact string replacement, no regex gotchas). Use `sed` only for simple token swaps where the replacement contains no special characters.
+
+## 7. XSSI, JSON, and cookies
 
 - **JSON** responses: prefer **POST** with **Content-Type: application/json** and **CSRF** token in header or body for **state-changing** actions; **GET** JSON **can** leak cross-origin if misconfigured—don’t put **sensitive** lists behind GET.
 - **Cookies:** `SameSite=Lax` or `Strict` for **session**; `Secure` in prod; know **CSRF** rules for **custom** `fetch` from same site (same-origin form POST is often simpler for internal UIs).
 - If you add **CSP** (Flask or proxy), **avoid** `'unsafe-inline'` for **script** long-term; use **nonce** or small **external** files.
 
-## 7. Jinja and static assets
+## 8. Jinja and static assets
 
 - **`url_for('static', filename='js/…')`** for script `src` so deploy paths stay correct.
 - **Pass JSON** to JS with `tojson` filter in a **`<script type="application/json">` id="…"** block, then `JSON.parse` in your module — **not** by pasting unescaped into a JS string (XSS if data ever has `</script>`).
 - Re-read **user-controlled** output rules in [flask-serving](../python-internal-tools/flask-serving.md) §5.
 
-## 8. Checklist (new page or widget)
+## 9. Checklist (new page or widget)
 
 - [ ] **Semantic** structure and **one** `h1`
 - [ ] **Labels** on all inputs; **error** text linked with `aria-describedby` when you add client validation
@@ -138,7 +215,7 @@ Name files by slug + suffix: `superb-owl-thumb.jpg`, `superb-owl-display.jpg`. K
 - [ ] **JS hooks** use `data-*` attributes, not styling class names
 - [ ] **a11y** pass: [web-accessibility](../web-accessibility/SKILL.md) quick checks
 
-## 9. When to read more
+## 10. When to read more
 
 - **Layout and responsive:** [web-layout-css reference](../web-layout-css/reference.md)  
 - **Flask, auth, headers, CSRF app-wide:** [flask-serving](../python-internal-tools/flask-serving.md)  

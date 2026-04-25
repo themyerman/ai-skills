@@ -116,6 +116,20 @@
 
 Use `aria-atomic="true"` when the whole value should be read as a unit (a count), not word by word.
 
+**`aria-expanded`** on toggle controls (nav hamburger, accordion, disclosure):
+- Put `aria-expanded` on the **button**, not the panel it controls.
+- Update it in JS whenever state changes: `btn.setAttribute('aria-expanded', isOpen)`.
+- Pair with `aria-label` if the button has no visible text (e.g. icon-only hamburger).
+- The controlled panel doesn't need `aria-hidden` if it's removed from layout with `display: none` — that already hides it from the accessibility tree.
+
+```html
+<button class="nav-toggle" aria-label="Open menu" aria-expanded="false">...</button>
+```
+```js
+const open = panel.classList.toggle('open');
+btn.setAttribute('aria-expanded', open);
+```
+
 **`aria-current="page"`** on the active nav link — screen readers announce "(current)" without extra text:
 
 ```html

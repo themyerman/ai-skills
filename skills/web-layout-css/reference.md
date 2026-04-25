@@ -98,12 +98,67 @@ h3 { font-size: clamp(1rem, 2.5vw, 1.25rem); }
 
 - **`@media print`**: hide **nav**, **buttons** that only make sense on screen; `color-adjust: exact;` for backgrounds if policy allows; `break-inside: avoid` on **cards** you don’t want split across pages.
 
-## 9. What we skip here
+## 9. Images in layout
+
+### Banner images (full-width, object-fit: cover)
+
+```css
+.img-banner {
+  width: 100%;
+  max-height: 540px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+```
+
+- **Portrait photos used as landscape banners** crop to the middle by default — faces get cut. Use `object-position: 50% 20%` to anchor near the top, or increase `max-height` so more of the photo is visible.
+- Tune `object-position` with percentage pairs: `50% 0%` = top, `50% 100%` = bottom. For a photo where you need to show face AND shirt text, bump `max-height` first, then adjust the Y position.
+- **Float images in prose:** clear floats on the next block element with `clear: right` to prevent pull-quotes or headings from sitting beside an image unexpectedly.
+
+### Avoiding dead space on the right
+
+A common trap: set a generous `--max` container (e.g. 1000px) then constrain children with `max-width: 55ch` everywhere. Result: content fills 60% of the page, 40% is blank on the right.
+
+**Prefer:** narrow the container itself to the widest comfortable reading width (typically 780–860px for prose, 1000–1200px for dashboards), then remove child max-width constraints. One constraint beats many.
+
+```css
+/* Instead of this — scattered child constraints */
+.wrap { max-width: 1000px; }
+.page-header p { max-width: 55ch; }   /* dead space */
+.about-body { max-width: 65ch; }      /* dead space */
+
+/* Do this — one tighter container */
+.wrap { max-width: 820px; }           /* no child constraints needed */
+```
+
+Exception: if you need a wide layout for grids/tables AND narrow prose on the same page, use a narrower inner wrapper (`.prose`) rather than constraining every element individually.
+
+### Image optimization (macOS `sips`)
+
+macOS ships `sips` — no install needed. Use it to convert iPhone PNGs to web-ready JPEGs before committing:
+
+```bash
+# Resize to max 1400px wide + convert to JPEG at 85% quality
+sips -s format jpeg -s formatOptions 85 --resampleWidth 1400 INPUT.png --out OUTPUT.jpg
+
+# Resize illustration/icon to specific width, keep PNG
+sips --resampleWidth 400 INPUT.png --out OUTPUT_sm.png
+
+# Batch convert a folder
+for f in img/*.png; do
+  sips -s format jpeg -s formatOptions 85 --resampleWidth 1400 "$f" --out "${f%.png}.jpg"
+done
+```
+
+Typical gains from iPhone photos: 15–28 MB PNG → 700 KB–1.1 MB JPEG (94–97% reduction). Use `loading="lazy"` on below-fold images.
+
+## 10. What we skip here
 
 - **Sass/PostCSS** — fine; keep **output** debuggable.
 - **Tailwind** — if you use it, this skill is **rare**; use **a11y** and **flask** docs from **python-internal-tools** for structure.
 
-## 10. Checklist
+## 11. Checklist
 
 - [ ] **Layout** is **grid** or **flex**, not **float** hacks
 - [ ] **Overflow** and **min-width: 0** on flex children that clip
@@ -113,7 +168,7 @@ h3 { font-size: clamp(1rem, 2.5vw, 1.25rem); }
 - [ ] **Touch** targets and **contrast** checked with [web-accessibility](../web-accessibility/SKILL.md)
 - [ ] **Print** path doesn’t show **useless** chrome (optional but nice for reports)
 
-## 11. Related
+## 12. Related
 
 - [web-frontend-basics](../web-frontend-basics/SKILL.md) — HTML/JS
 - [web-accessibility](../web-accessibility/SKILL.md) — focus, color, reduced motion
