@@ -129,6 +129,27 @@ She is also the co-founder of Walking With Our Sisters, a commemorative art inst
 
 ---
 
+### Dallin Maybee (Arapaho, contemporary)
+Maybee is a painter and illustrator whose work is grounded in careful, detailed realism applied to Plains Indian subjects — warriors in full regalia, ceremonial figures, historical scenes, and portraits. His paintings convey specificity and dignity: the detail in beadwork, featherwork, and clothing is rendered with the kind of exactness that comes from deep familiarity with the material culture, not decorative approximation. His work has appeared on book covers and album covers as well as in gallery contexts, and he has built a following that spans collectors of fine art and those who come to Indigenous subject matter through music and literature.
+
+Where Scholder and his heirs work through irony and distortion, Maybee works through precision — the figures in his paintings are fully present, not commented upon. The political weight of that choice is real: to paint Arapaho subjects with unflinching beauty and care is its own act of resistance against a century of degraded or sentimentalized imagery.
+
+---
+
+### Brent Learned (Cheyenne/Arapaho, contemporary)
+Learned is a painter based in Oklahoma whose work has a distinct and immediately recognizable energy: vivid, saturated color; bold graphic compositions; traditional Plains imagery rendered with a contemporary pop-art sensibility. His warriors, horses, and ceremonial figures pulse with movement — the paintings feel alive in a way that is neither nostalgic nor ethnographic. He is working from inside the tradition, not documenting it from outside.
+
+His paintings occupy an interesting position in the contemporary market: they are accessible (the format is legible, the subjects are recognizable) while being formally ambitious and culturally specific. He has built a significant collector base and a strong social media presence, both of which he uses to keep Indigenous art — and specifically Southern Plains art — visible outside the institutional contexts that have historically controlled who gets seen.
+
+---
+
+### George Custer Levi (details to be verified by Tom)
+**Note:** My knowledge of this artist is limited — the entry below should be reviewed and corrected by Tom, who has direct knowledge. The name "Custer" is of course charged in Plains Indian history, which makes it a notable artistic identity in itself.
+
+*Placeholder — please expand with nation, primary medium, major works, and why he belongs in this list.*
+
+---
+
 ## A note on this list
 
 This list is partial and skewed toward artists who have received English-language critical attention. Major traditions and artists in Latin America, the Caribbean, and among Indigenous communities with less market or institutional visibility are underrepresented here — not because they are less significant but because the documentation is less accessible. The [regions-meso-south.md](regions-meso-south.md) file covers some of that ground.
