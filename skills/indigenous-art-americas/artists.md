@@ -143,10 +143,14 @@ His paintings occupy an interesting position in the contemporary market: they ar
 
 ---
 
-### George Custer Levi (details to be verified by Tom)
-**Note:** My knowledge of this artist is limited — the entry below should be reviewed and corrected by Tom, who has direct knowledge. The name "Custer" is of course charged in Plains Indian history, which makes it a notable artistic identity in itself.
+### George Curtis Levi (Southern Cheyenne / Southern Arapaho / Oglala Lakota, contemporary)
+Levi is a ledger artist who works in the Cheyenne pictographic tradition, using Prismacolor pencils on antique documents — often 19th-century bank checks and other historical papers — as his canvas. The choice of substrate is not incidental: the documents that administered colonial commerce and governance become the surface on which Cheyenne warriors, ceremonies, and victory are depicted. The paper carries its own history; the images Levi places on it carry another.
 
-*Placeholder — please expand with nation, primary medium, major works, and why he belongs in this list.*
+His work focuses directly on the traumatic history of the Southern Cheyenne and Arapaho — the Sand Creek Massacre, the Washita River attack led by Custer, the Battle of Little Bighorn (Greasy Grass) — rendered from a Cheyenne perspective rather than the settler-historical one. His depictions of the Little Bighorn foreground Cheyenne agency and victory, including figures like Buffalo Calf Road Woman, whose role in the battle has been marginalized in most historical accounts. The work is explicitly oriented toward healing: confronting historical trauma through art rather than leaving it unaddressed.
+
+He is a member of the Cheyenne Kitfox Society, and his practice extends beyond painting to beadwork and painting on rawhide — media with deep roots in Plains material culture. His work has been shown at the National Museum of the American Indian, the Santa Fe Indian Market (SWAIA), and the Heard Museum.
+
+Levi's middle name — Curtis — is itself a pointed fact in the context of his work. That his art centers Cheyenne resistance to the violence associated with Custer's campaigns while carrying a name that echoes the era's cast of characters is not lost on anyone familiar with the history.
 
 ---
 
