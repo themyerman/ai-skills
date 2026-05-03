@@ -15,6 +15,7 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | PII / sensitive data, exports, safe logs | `~/.claude/ai-skills/skills/data-handling-pii/SKILL.md` |
 | Credentials, CI, leak response | `~/.claude/ai-skills/skills/secrets-management/SKILL.md` |
 | Bash / awk on CSVs | `~/.claude/ai-skills/skills/shell-csv-pipelines/SKILL.md` |
+| macOS shell scripts (sips, osascript, keychain, launchd, AI API wrappers) | `~/.claude/ai-skills/skills/shell-macos-scripts/SKILL.md` |
 | Executive one-pager | `~/.claude/ai-skills/skills/executive-reports/SKILL.md` |
 | Working with AI in the editor | `~/.claude/ai-skills/skills/using-ai-assistants/SKILL.md` |
 | Shift-left security culture | `~/.claude/ai-skills/skills/shift-left-program/SKILL.md` |

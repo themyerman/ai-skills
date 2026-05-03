@@ -88,6 +88,8 @@ When a script **already exists** in your org’s tree, **extend or call it** ins
 
 - Prefer **bash 3.2+** on macOS (default `/bin/bash` is old); avoid **bash 4+ only** features unless the repo documents **Homebrew bash** or **GNU tools** as a requirement.
 - For **`sed` / `awk` / `date`**, GNU vs BSD differ; for anything non-trivial, test on **both** or centralize the logic in **Python**.
+- **`sed -i` on macOS requires an empty backup extension:** `sed -i '' 's/foo/bar/' file` — omitting `''` is a syntax error on BSD sed.
+- **Multiline `sed` replacements are unreliable on macOS.** If you need to insert a multi-line block (e.g. before `</head>`), use Python: `python3 -c "import pathlib; p=pathlib.Path('f'); p.write_text(p.read_text().replace('X','Y',1))"`. See **shell-macos-scripts** for the full pattern.
 - **Use `mktemp`** for temp files, not `/tmp/$RANDOM` alone.
 
 ```bash
