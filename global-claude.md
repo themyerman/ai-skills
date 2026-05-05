@@ -59,7 +59,9 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Print production** (DPI, color profiles, bleed, file formats) | [`visual-design/`](skills/visual-design/SKILL.md) |
 | **Design feedback** (composition, color, type hierarchy) | [`visual-design/`](skills/visual-design/SKILL.md) |
 | **Blues tradition** (history, lyric writing, Delta/Chicago/Piedmont, form, imagery, visual art informed by blues) | [`blues-tradition/`](skills/blues-tradition/SKILL.md) |
+| **Blues songwriting** (lyric craft, AAB verse, floating verse, call and response, imagery, editing blues lyrics) | [`blues-songwriting/`](skills/blues-songwriting/SKILL.md) |
 | **Blues tradition** (history, lyric writing, Delta/Chicago/Piedmont, form, imagery, visual art informed by blues) | [`blues-tradition/`](skills/blues-tradition/SKILL.md) |
+| **Blues songwriting** (lyric craft, AAB verse, floating verse, call and response, imagery, editing blues lyrics) | [`blues-songwriting/`](skills/blues-songwriting/SKILL.md) |
 | **Indigenous history of the Americas** (pre-contact, colonization, removal, boarding schools, sovereignty, AIM, contemporary issues) | [`indigenous-history-americas/`](skills/indigenous-history-americas/SKILL.md) |
 | **Indigenous art of the Americas** (conversation, context, critique) | [`indigenous-art-americas/`](skills/indigenous-art-americas/SKILL.md) |
 | **Indigenous bias awareness** (terms, behaviors, historical context) | [`indigenous-bias-awareness/`](skills/indigenous-bias-awareness/SKILL.md) |
