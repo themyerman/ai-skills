@@ -17,20 +17,20 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Background jobs**: cron scripts, RQ, Celery, task idempotency, retry, dead-letter handling | [`background-jobs/`](skills/background-jobs/SKILL.md) |
 | **Data pipelines**: ETL patterns, idempotency, incremental load, chunking/pagination, backfill, data quality | [`data-pipelines/`](skills/data-pipelines/SKILL.md) |
 | **Database migrations**: Alembic setup, autogenerate, zero-downtime patterns, SQLite quirks, CI gate | [`database-migrations/`](skills/database-migrations/SKILL.md) |
-| **Before a big merge**: all tests green, README / docs, security-relevant changes reviewed | [`major-change-readiness/`](skills/major-change-readiness/SKILL.md) |
+| **Before a big merge**: all tests green, README / docs, security-relevant changes reviewed | [`ship-checklist/`](skills/ship-checklist/SKILL.md) |
 | **Git workflow**: branch naming, commit messages, PR hygiene, rebase vs merge, tags and releases | [`git-workflow/`](skills/git-workflow/SKILL.md) |
 | **Docker**: Dockerfile best practices, multi-stage builds, non-root user, .dockerignore, compose for dev | [`docker-containerization/`](skills/docker-containerization/SKILL.md) |
 | **Dependency security**: pip-audit, CVE triage, pinning + pip-compile, Dependabot, supply chain hygiene, SBOM | [`dependency-security/`](skills/dependency-security/SKILL.md) |
 | **CI/CD pipelines**: GitHub Actions, job caching, matrix builds, secrets, reusable workflows, deploy on merge | [`ci-cd-pipelines/`](skills/ci-cd-pipelines/SKILL.md) |
-| **Verification loop** before PR (lint, types, tests, quick secret grep) | [`verification-loop/`](skills/verification-loop/SKILL.md) |
+| **Verification loop** before PR (lint, types, tests, quick secret grep) | [`pre-pr-checklist/`](skills/pre-pr-checklist/SKILL.md) |
 | **Evidence-first terminal work** (run, inspect, verify, commit, push with proof) | [`shell-discipline/`](skills/shell-discipline/SKILL.md) |
-| **Context / token audit** (skills, rules, MCP creep) | [`context-budget/`](skills/context-budget/SKILL.md) |
+| **Context / token audit** (skills, rules, MCP creep) | [`token-budget/`](skills/token-budget/SKILL.md) |
 | **Jira** from the agent (REST API, JQL, PAT) | [`jira-integration/`](skills/jira-integration/SKILL.md) |
-| **Automation inventory** (hooks, CI, MCP, overlap) | [`automation-audit-ops/`](skills/automation-audit-ops/SKILL.md) |
+| **Automation inventory** (hooks, CI, MCP, overlap) | [`automation-audit/`](skills/automation-audit/SKILL.md) |
 | **Observability**: health check endpoints, metrics (RED method), structured log fields, alerting, SLOs | [`observability/`](skills/observability/SKILL.md) |
 | **Bash** / awk / cut on CSVs; set -euo pipefail; when to use Python instead | [`shell-csv-pipelines/`](skills/shell-csv-pipelines/SKILL.md) |
 | **macOS shell scripts** (sips, osascript, keychain, launchd, AI API wrappers) | [`shell-macos-scripts/`](skills/shell-macos-scripts/SKILL.md) |
-| **Workspace capability audit** (what's configured vs missing) | [`workspace-surface-audit/`](skills/workspace-surface-audit/SKILL.md) |
+| **Workspace capability audit** (what's configured vs missing) | [`environment-audit/`](skills/environment-audit/SKILL.md) |
 | **Blameless postmortem** / incident learning (no individual blame) | [`blameless-postmortems/`](skills/blameless-postmortems/SKILL.md) |
 | **Incident response** (during an outage): triage, war room, hotfix, comms templates | [`incident-response/`](skills/incident-response/SKILL.md) |
 | **On-call runbooks**: writing runbooks that work at 2am, exact commands, templates | [`on-call-runbooks/`](skills/on-call-runbooks/SKILL.md) |
