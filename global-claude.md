@@ -23,7 +23,7 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Dependency security**: pip-audit, CVE triage, pinning + pip-compile, Dependabot, supply chain hygiene, SBOM | [`dependency-security/`](skills/dependency-security/SKILL.md) |
 | **CI/CD pipelines**: GitHub Actions, job caching, matrix builds, secrets, reusable workflows, deploy on merge | [`ci-cd-pipelines/`](skills/ci-cd-pipelines/SKILL.md) |
 | **Verification loop** before PR (lint, types, tests, quick secret grep) | [`verification-loop/`](skills/verification-loop/SKILL.md) |
-| **Evidence-first terminal work** (run, inspect, verify, commit, push with proof) | [`terminal-ops/`](skills/terminal-ops/SKILL.md) |
+| **Evidence-first terminal work** (run, inspect, verify, commit, push with proof) | [`shell-discipline/`](skills/shell-discipline/SKILL.md) |
 | **Context / token audit** (skills, rules, MCP creep) | [`context-budget/`](skills/context-budget/SKILL.md) |
 | **Jira** from the agent (REST API, JQL, PAT) | [`jira-integration/`](skills/jira-integration/SKILL.md) |
 | **Automation inventory** (hooks, CI, MCP, overlap) | [`automation-audit-ops/`](skills/automation-audit-ops/SKILL.md) |
