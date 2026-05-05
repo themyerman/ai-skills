@@ -2,10 +2,6 @@
 
 Before non-trivial work, if the task matches a goal below, read the corresponding SKILL.md then follow it to reference files as needed.
 
----
-
-## By goal
-
 | I need to… | Open |
 |------------|------|
 | **Partner well with AI** in the editor (context, verify, no secrets, escalation) | [`using-ai-assistants/`](skills/using-ai-assistants/SKILL.md) |
@@ -58,32 +54,9 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Visual communication**: diagram design, chart types, Tufte data-ink ratio, CARP, Mermaid | [`visual-communication/`](skills/visual-communication/SKILL.md) |
 | **Print production** (DPI, color profiles, bleed, file formats) | [`visual-design/`](skills/visual-design/SKILL.md) |
 | **Design feedback** (composition, color, type hierarchy) | [`visual-design/`](skills/visual-design/SKILL.md) |
-| **Blues tradition** (history, lyric writing, Delta/Chicago/Piedmont, form, imagery, visual art informed by blues) | [`blues-tradition/`](skills/blues-tradition/SKILL.md) |
-| **Blues songwriting** (lyric craft, AAB verse, floating verse, call and response, imagery, editing blues lyrics) | [`blues-songwriting/`](skills/blues-songwriting/SKILL.md) |
-| **Blues tradition** (history, lyric writing, Delta/Chicago/Piedmont, form, imagery, visual art informed by blues) | [`blues-tradition/`](skills/blues-tradition/SKILL.md) |
-| **Blues songwriting** (lyric craft, AAB verse, floating verse, call and response, imagery, editing blues lyrics) | [`blues-songwriting/`](skills/blues-songwriting/SKILL.md) |
+| **Blues tradition** (history, Delta/Chicago/Piedmont, form, imagery, visual art informed by blues) | [`blues-tradition/`](skills/blues-tradition/SKILL.md) |
+| **Blues songwriting** (lyric craft, AAB verse, floating verse, call and response, imagery, editing) | [`blues-songwriting/`](skills/blues-songwriting/SKILL.md) |
 | **Indigenous history of the Americas** (pre-contact, colonization, removal, boarding schools, sovereignty, AIM, contemporary issues) | [`indigenous-history-americas/`](skills/indigenous-history-americas/SKILL.md) |
 | **Indigenous art of the Americas** (conversation, context, critique) | [`indigenous-art-americas/`](skills/indigenous-art-americas/SKILL.md) |
 | **Indigenous bias awareness** (terms, behaviors, historical context) | [`indigenous-bias-awareness/`](skills/indigenous-bias-awareness/SKILL.md) |
 | **Digital art in context** (history, critical discourse, collector vocabulary) | [`digital-art-context/`](skills/digital-art-context/SKILL.md) |
-
----
-
-## Web UI: default reading order
-
-For a new or touched page (Jinja/Flask or static), read in this order:
-
-1. [`web-frontend-basics`](skills/web-frontend-basics/SKILL.md) — structure and behavior (HTML, forms, small JS)
-2. [`web-layout-css`](skills/web-layout-css/SKILL.md) — layout and visuals
-3. [`web-accessibility`](skills/web-accessibility/SKILL.md) — WCAG / keyboard / contrast pass
-
----
-
-## Jira / CSV split
-
-| Situation | Skill |
-|-----------|-------|
-| Jira REST client, JQL, PAT, CLI bulk | [`jira-integration/`](skills/jira-integration/SKILL.md) |
-| Text / CSV in the shell (pipes, awk, exports from files) | [`shell-csv-pipelines/`](skills/shell-csv-pipelines/SKILL.md) |
-
-If an export may contain PII (reporter, assignee, free text), also use `data-handling-pii` — treat the file as sensitive.
