@@ -52,6 +52,7 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **CSS**: flex/grid, spacing, responsive, tables | [`web-layout-css/`](skills/web-layout-css/SKILL.md) |
 | **Accessibility**: WCAG habits, keyboard, ARIA, contrast, live regions, reduced motion | [`web-accessibility/`](skills/web-accessibility/SKILL.md) |
 | **README, install, how-to, runbook, ADR, changelog, migration, FAQ, API doc prose, plain English** | [`docs-clear-writing/`](skills/docs-clear-writing/SKILL.md) |
+| **Static sites on GitHub Pages**: plain HTML/CSS/JS, CNAME, custom domains, Actions workflows, docs/ vs root deployment | [`static-site-github-pages/`](skills/static-site-github-pages/SKILL.md) |
 | **Storytelling**: narrative arc, three-act structure, hooks, stakes, concrete detail | [`storytelling/`](skills/storytelling/SKILL.md) |
 | **Persuasive writing**: BLUF, business case, objections, so-what test, audience framing | [`persuasive-writing/`](skills/persuasive-writing/SKILL.md) |
 | **Visual communication**: diagram design, chart types, Tufte data-ink ratio, CARP, Mermaid | [`visual-communication/`](skills/visual-communication/SKILL.md) |
