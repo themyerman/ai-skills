@@ -57,6 +57,7 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Visual communication**: diagram design, chart types, Tufte data-ink ratio, CARP, Mermaid | [`visual-communication/`](skills/visual-communication/SKILL.md) |
 | **Print production** (DPI, color profiles, bleed, file formats) | [`visual-design/`](skills/visual-design/SKILL.md) |
 | **Design feedback** (composition, color, type hierarchy) | [`visual-design/`](skills/visual-design/SKILL.md) |
+| **Blues tradition** (history, lyric writing, Delta/Chicago/Piedmont, form, imagery, visual art informed by blues) | [`blues-tradition/`](skills/blues-tradition/SKILL.md) |
 | **Indigenous art of the Americas** (conversation, context, critique) | [`indigenous-art-americas/`](skills/indigenous-art-americas/SKILL.md) |
 | **Indigenous bias awareness** (terms, behaviors, historical context) | [`indigenous-bias-awareness/`](skills/indigenous-bias-awareness/SKILL.md) |
 | **Digital art in context** (history, critical discourse, collector vocabulary) | [`digital-art-context/`](skills/digital-art-context/SKILL.md) |
