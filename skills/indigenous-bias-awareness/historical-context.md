@@ -90,6 +90,17 @@ Unlike some forms of bias, anti-Indigenous bias is frequently met with the respo
 
 ---
 
+## Reclamation through art
+
+One of the most powerful responses to anti-Indigenous bias is the reclamation of harmful terms and frameworks by Indigenous artists on their own terms. This is distinct from non-Indigenous misuse — it is an act of cultural sovereignty.
+
+Examples of reclamation in art:
+- An Indigenous artist titling a series *Warpaint* and using it to celebrate ceremonial mark-making as spiritual practice — transforming a term that flattens ceremony into warfare cliché into a celebration of the practice itself
+- Using the Lakota word *Tatanka* (buffalo) as an artwork title rather than the English "bison" — centering Indigenous language in the naming of Indigenous subjects
+- Making work explicitly titled *Make America Native Again*, *Resist*, *Undefeated* — absorbing the language of political confrontation and redirecting it
+
+When Indigenous artists reclaim terms, the reclamation is not available as cover for non-Indigenous use of those same terms. The meaning of reclamation depends on who is doing it and from what position.
+
 ## Related
 
 - [indigenous-art-americas / language-and-framing](../indigenous-art-americas/language-and-framing.md) — decolonial concepts (repatriation, survivance, blood quantum, appropriation vs. appreciation) in the context of art and cultural conversation

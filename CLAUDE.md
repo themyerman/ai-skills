@@ -60,3 +60,4 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Indigenous art of the Americas** (conversation, context, critique) | [`indigenous-art-americas/`](skills/indigenous-art-americas/SKILL.md) |
 | **Indigenous bias awareness** (terms, behaviors, historical context) | [`indigenous-bias-awareness/`](skills/indigenous-bias-awareness/SKILL.md) |
 | **Digital art in context** (history, critical discourse, collector vocabulary) | [`digital-art-context/`](skills/digital-art-context/SKILL.md) |
+| **Tom Myer's art language** (visual signature, catalog, series, best sellers, new work) | [`tom-myer-art-language/`](skills/tom-myer-art-language/SKILL.md) |
