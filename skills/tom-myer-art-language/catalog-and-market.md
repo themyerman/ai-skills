@@ -86,3 +86,26 @@ Reworked landscapes with Indigenous life woven in: longhouses, tipis, canoes. La
 - **Mohawk** → Abstract the face further (Fractured Native territory). Vertical stripes radiate beyond the face into the background. Keep eyes and gold accent as anchors.
 - **Sun Worship** → Clothed figure, back to viewer, facing sun. Visible skin is all tattoos — petroglyph marks, clan symbols, handprints.
 - **Free to Roam** → Three wolves (Wolf Clan piece). Drop zig-zag ray. Add subtle inner marks to wolf silhouettes.
+
+---
+
+## Cayuga Language Series (2024) — NOT YET ON SITE
+
+Five digital pieces incorporating spoken Cayuga language via speech bubbles. Created in 2024, never added to myerman.art. **Next immediate task: add these to the site.**
+
+The speech bubble device makes language alive and present-tense — figures speaking Cayuga to the viewer or to each other, not text as label or exhibit. This is the most culturally significant work in the catalog and directly addresses language preservation. Also the work most likely to attract institutional attention.
+
+**The five pieces:**
+1. Portrait with teal mandala background — woman's face, facial tattoos, dense background, speech bubble with Cayuga text
+2. Two figures facing each other across a large golden sun — most formally beautiful piece in the series; intimate, tattoo marks visible
+3. Standing contact-era warrior — historically accurate trade cloth coat + traditional accessories + musket; speech bubble in Cayuga
+4. Young warrior with feather roach — bold graphic figure, torn-paper speech bubble, teal sky and sun
+5. Mohawk profile — cross-hatched background, yellow sun, speech bubble in Cayuga; companion piece to the Mohawk rework
+
+**To add to site, need from Tom:**
+- Five high-res PNGs
+- Titles for each piece
+- Story text (Tom should write these given cultural weight; drafting assistance available)
+- A series framing paragraph for the series landing page
+
+**Note:** The "language gap" identified in the contemporary field assessment is already addressed by this series — it just needs to be published.
