@@ -48,7 +48,7 @@ description: >-
 
 - **Architecture**, **compliance** sign-off, **re-org**, **resourcing**, **jurisdictions**, **threat** trade-offs, **formal** org **security** program: **owners** and **processes**, not the model.  
 - For **in-product** **LLM** features (mock client, system prompt, **I/O** screening, audit): **[`llm-integrations-safety`](../llm-integrations-safety/SKILL.md)**.  
-- For **Python** merge **readiness**: **[`code-review`](../python-scripts-and-services/code-review.md)**. For org **Jira** / **security** **process:** your **internal** runbooks; **[`shift-left-program`](../shift-left-program/SKILL.md)** is context only.
+- For **Python** merge **readiness**: **[`code-review`](../python-scripts-and-services/code-review.md)**. For org **Jira** / **security** **process:** your **internal** runbooks; **[`shift-left-security`](../shift-left-security/SKILL.md)** is context only.
 
 ## This vs **llm-integrations-safety**
 

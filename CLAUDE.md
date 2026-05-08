@@ -34,7 +34,7 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Prompt engineering**: system messages, few-shot examples, structured output, eval loops, token budget | [`prompt-engineering/`](skills/prompt-engineering/SKILL.md) |
 | **PII / sensitive data**: minimization, safe logs, exports (not legal advice) | [`data-handling-pii/`](skills/data-handling-pii/SKILL.md) |
 | **Credentials and secrets**: no plaintext in chat or CI; .env, Docker, K8s, gitleaks; leak response | [`secrets-management/`](skills/secrets-management/SKILL.md) |
-| **Shift-left security culture** | [`shift-left-program/`](skills/shift-left-program/SKILL.md) |
+| **Shift-left security culture** | [`shift-left-security/`](skills/shift-left-security/SKILL.md) |
 | **Pre-PR / pre-release security review**: threat model stub, punchlist, needs-review determination | [`security-review-advisor/`](skills/security-review-advisor/SKILL.md) |
 | **Executive or stakeholder one-pager**: BLUF, who-reads-what, limitations, appendices | [`executive-reports/`](skills/executive-reports/SKILL.md) |
 | **Brainstorm / ideation**: diverge then converge, SCAMPER, structured patterns | [`brainstorming-ideation/`](skills/brainstorming-ideation/SKILL.md) |

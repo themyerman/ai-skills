@@ -1,6 +1,6 @@
 # Security, APIs, and threat thinking
 
-<!-- Split from the developer guide. Canonical: [`../../.claude/CLAUDE.md`](../../.claude/CLAUDE.md). **Formal** org threat model / security program → your internal runbooks and [shift-left-program/](../shift-left-program/SKILL.md) (lightweight) — *not* duplicated here. Jira/CLI: [jira.md](jira.md). LLM: [llm-integrations-safety](../llm-integrations-safety/SKILL.md). **Slack / wiki / email, CI, K8s, leak response** (broad eng, not Python-only): [secrets-management](../secrets-management/SKILL.md). -->
+<!-- Related: formal security program → [shift-left-security/](../shift-left-security/SKILL.md). Jira/CLI: [jira.md](jira.md). LLM in app code: [llm-integrations-safety](../llm-integrations-safety/SKILL.md). Secrets, CI, K8s: [secrets-management](../secrets-management/SKILL.md). -->
 
 ## 4. Security & API Integration
 
@@ -151,26 +151,26 @@ if "html" in r.headers.get("content-type", "").lower():
 
 ---
 
-## 5. Threat thinking *for people writing code* (not the full org program)
+## 5. Threat thinking *for people writing code*
 
-The long guide’s **[`.claude/CLAUDE.md` §5](../../.claude/CLAUDE.md) is short (quick questions and org handoff). **This** section keeps the full **code-habit** table, logging list, and escalation text for the skill.
+This section is about code-level habits — not about running a formal security program. It answers: “what could go wrong in this script, API client, or pipeline?”
 
-**Two layers (don’t conflate them):**
+**Two layers — keep them separate:**
 
 | Layer | What it is | Where to go |
 |--------|------------|------------|
-| **Program / team threat model** | **Your** org’s **formal** TM, **SDLC** or **AppSec** **process** (artifacts in repo, **DOR** or **arch** **review,** and so on) | **Internal** runbooks, portals, and [shift-left-program/](../shift-left-program/SKILL.md) for a **thin** habits layer only. |
-| **This section** | **Day-to-day** “what could go wrong in *this* script, API client, or pipeline?” at **boundaries** (strings in, data out) | Right here: five questions + pattern table + logging. A **note in `docs/`** can be enough to *think*; it is **not** a substitute for a **required** team TM when your **org** program says you need one. |
+| Formal threat model / security review | Your org’s AppSec process — design reviews, architecture sign-off, formal TM artifacts | Your org’s internal runbooks; [shift-left-security/](../shift-left-security/SKILL.md) for a lightweight habits overview |
+| This section | Day-to-day: “what could go wrong at this boundary?” | Right here — five questions, pattern table, logging guide. A short note in `docs/` is often enough; it is not a substitute for a formal review when your org requires one. |
 
-You don’t need a 50-page process to think like an attacker in code. Ask these at every boundary — **CLI** input, **HTTP**, **DB write**, **config** load, **subprocess** args, **LLM** prompts that see ticket text (see **llm-integrations-safety**).
+You don’t need a 50-page process to think like an attacker in code. Ask these at every boundary — CLI input, HTTP, DB write, config load, subprocess args, LLM prompts that see user-supplied text (see [llm-integrations-safety](../llm-integrations-safety/SKILL.md)).
 
 ### The five questions
 
-1. **What data am I handling?** Classify it: credentials, PII, internal system details, user-provided strings. Each category has different handling requirements. For a **broader** take on **PII**, **exports**, **Jira/Slack/wiki**, and **minimization**, see **[`data-handling-pii`](../data-handling-pii/SKILL.md)**.
+1. **What data am I handling?** Classify it: credentials, PII, internal system details, user-provided strings. Each category has different handling requirements. For a deeper look at PII, exports, and minimization, see [`data-handling-pii`](../data-handling-pii/SKILL.md).
 2. **Where does it go?** Trace the data flow: input → processing → storage → output. Every hop is a potential leak or injection point.
 3. **What if the input is malicious?** Assume every string from outside your process is adversarial. Validate type, length, character set, and structure before use.
 4. **What if an external system lies?** APIs return unexpected shapes, wrong status codes, HTML instead of JSON, and empty responses. Handle all of these explicitly.
-5. **What's the blast radius if this breaks?** A bug in a read-only reporting script is low severity. A bug in something that writes to production or sends alerts is high severity. Design accordingly.
+5. **What’s the blast radius if this breaks?** A bug in a read-only reporting script is low severity. A bug in something that writes to production or sends alerts is high severity. Design accordingly.
 
 ### Common threat patterns and mitigations
 
@@ -193,7 +193,7 @@ Log enough to reconstruct what happened in an incident — but never log:
 - PII (names, emails, user IDs) unless explicitly required and approved
 - Full request/response bodies from external APIs (they may contain secrets)
 
-**At your org:** read the **current** **Application Security** and **Logging** / **Observability** / **retention** policies in **your** **published** set—**not** this file—for what must not appear in application or system logs. If the live **policy** and the bullets **above** disagree, **the policy wins**. For **AUP,** data classes, and broader data handling, use **[`data-handling-pii`](../data-handling-pii/SKILL.md)**.
+These bullets cover the common cases. If your org has a published logging or data retention policy, that takes precedence. For PII classification and broader data handling, see [`data-handling-pii`](../data-handling-pii/SKILL.md).
 
 [logging-structured.md](logging-structured.md) adds *correlation* and *field* habits; it does not override the policy site.
 
@@ -203,10 +203,10 @@ Log at the right level:
 - `WARNING`: something unexpected happened but we recovered (fetch skipped, content truncated)
 - `ERROR`: something failed and the user needs to know
 
-### When to *escalate* beyond this section
+### When to escalate beyond this section
 
-**Still at the code / tool level:** if the feature touches **credentials, PII, new external APIs,** paths to **DB/filesystem,** or runs **unattended** in production, do a **deeper** review: write a short `docs/*.md` bullet list (what can go wrong, blast radius) and tighten tests. That **complements** the five questions; it is **not** the same as a **formal** team **threat** model or **program** sign-off when your org requires it.
+**Still at the code level:** if the feature touches credentials, PII, new external APIs, paths to DB/filesystem, or runs unattended in production, do a deeper pass: write a short `docs/*.md` note (what can go wrong, blast radius) and tighten the tests. That complements the five questions — it is not the same as a formal threat model or security review when your org requires one.
 
-**Hand off** to the **official** org path (security, architecture, or program **threat** **modeling**) when the change is or could be **significant** for **security** design, you need a **formal** threat model, you are **onboarding** a new **vendor** that touches **data,** or **policy** says to **escalate** early. Use your **internal** runbooks and **champions**; **[shift-left-program/](../shift-left-program/SKILL.md)** is only a **high-level** nudge, not a substitute for your employer’s process.
+**Hand off** when the change is security-significant in design (new auth flow, new external data integration, new service boundary), when you need a formal threat model, or when policy says to escalate early. See [shift-left-security/](../shift-left-security/SKILL.md) for a lightweight overview of when to escalate and how.
 
 ---

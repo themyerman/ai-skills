@@ -1,5 +1,5 @@
 ---
-name: shift-left-program
+name: shift-left-security
 description: |
   High-level ideas for building an internal shift-left / secure-development program:
   threat modeling, security champions, dev-friendly guardrails, training, and

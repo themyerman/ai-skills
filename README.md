@@ -62,7 +62,7 @@ For Cursor, run the installer script to symlink skills into a workspace:
 |-------|----------------|
 | [secrets-management](skills/secrets-management/SKILL.md) | Credentials, CI, leak response |
 | [dependency-security](skills/dependency-security/SKILL.md) | pip-audit, CVE triage, pinning, Dependabot, SBOM |
-| [shift-left-program](skills/shift-left-program/SKILL.md) | Security champions, CI defaults, escalation |
+| [shift-left-security](skills/shift-left-security/SKILL.md) | Security champions, CI defaults, escalation |
 | [data-handling-pii](skills/data-handling-pii/SKILL.md) | PII classification, minimization, safe logs/exports |
 | [llm-integrations-safety](skills/llm-integrations-safety/SKILL.md) | LLM mock clients, prompt injection, I/O screening |
 

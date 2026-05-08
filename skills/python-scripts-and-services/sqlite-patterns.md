@@ -79,7 +79,7 @@ This matches the **“Write migrations, not drop-and-recreate”** pattern in [r
 ## 9. What not to put here
 
 - **Postgres-specific** `ON CONFLICT` / `RETURNING` details — keep them in the **abstraction** layer with **backend** checks [reference.md](reference.md#support-multiple-backends-from-the-start).
-- **Entity design** and **threat** modeling of **stored** data — [security.md](security.md) and, for program TMs, [shift-left-program/](../shift-left-program/SKILL.md) + internal runbooks.
+- **Entity design** and **threat** modeling of **stored** data — [security.md](security.md) and, for program TMs, [shift-left-security/](../shift-left-security/SKILL.md) + internal runbooks.
 
 ---
 

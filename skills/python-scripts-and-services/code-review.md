@@ -1,6 +1,6 @@
 # Code review & PRs (internal Python)
 
-<!-- Triggers: code review, PR, pull request, ship this, merge readiness, pre-merge, reviewer. Complements: [testing-strategy](testing-strategy.md), [security](security.md), [shift-left-program](../shift-left-program/SKILL.md). -->
+<!-- Triggers: code review, PR, pull request, ship this, merge readiness, pre-merge, reviewer. Complements: [testing-strategy](testing-strategy.md), [security](security.md), [shift-left-security](../shift-left-security/SKILL.md). -->
 
 This file is the **Python-internal-tools** slice for **human or agent** review before merge. It does **not** replace team policy, required approvers, or your org’s **formal** security or threat-model program when that applies.
 
@@ -23,7 +23,7 @@ This file is the **Python-internal-tools** slice for **human or agent** review b
 - [ ] **Tests** run **locally** (or same **CI** job you expect on push) — [testing-strategy](testing-strategy.md).  
 - [ ] **Secrets** not in the diff; **PII** in logs called out or removed — [security](security.md).  
 - [ ] **`README` / `WORK.md` / `docs/`** touched if user-facing **behavior** or **ops** changed — [documentation](documentation.md).  
-- [ ] If the change is **significant** for **security** or **threat**-relevant design, the **formal** org path (per runbooks) **before** or **in parallel** with code review is already **considered** — [shift-left-program](../shift-left-program/SKILL.md), **[`CLAUDE.md` §5](../../.claude/CLAUDE.md)**.  
+- [ ] If the change is **significant** for **security** or **threat**-relevant design, the **formal** org path (per runbooks) **before** or **in parallel** with code review is already **considered** — [shift-left-security](../shift-left-security/SKILL.md), **[`CLAUDE.md` §5](../../.claude/CLAUDE.md)**.  
 
 ---
 
@@ -101,7 +101,7 @@ Use this structure so the author can **route** work (and so an **agent** can out
 | Jira / **Allowlist** / **preview** behavior | [jira](jira.md) |
 | **Flask** / internal UI | [flask-serving](flask-serving.md) |
 | **Instructional** docs (README, install, runbook, **plain** English) | [docs-clear-writing](../docs-clear-writing/SKILL.md) (hub); [plain-english.md](../docs-clear-writing/plain-english.md) (wording); [documentation](documentation.md) (Python **layout**) |
-| **Formal** security or **threat** **model** **(when** your **org** **requires** **it** **)** | [shift-left-program/SKILL.md](../shift-left-program/SKILL.md) + **internal** runbooks |
+| **Formal** security or **threat** **model** **(when** your **org** **requires** **it** **)** | [shift-left-security/SKILL.md](../shift-left-security/SKILL.md) + **internal** runbooks |
 | **Shell** / CSV **one-offs** (not this package) | [shell-csv-pipelines](../shell-csv-pipelines/SKILL.md) in **ai-skills** |
 | **HTML / CSS / UI** or **a11y** of a page (default read order) | [web-frontend-basics](../web-frontend-basics/SKILL.md) → [web-layout-css](../web-layout-css/SKILL.md) → [web-accessibility](../web-accessibility/SKILL.md) ([`SKILLS.md` chart](../../SKILLS.md#web-ui-default-reading-order)) |
 

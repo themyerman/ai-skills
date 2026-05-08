@@ -42,7 +42,7 @@ The **umbrella** for **how** to write **clear** technical text: **scannable** he
 
 - **Code review** of the change set → **[`code-review.md`](../python-scripts-and-services/code-review.md)**
 - **Flask** or **template** mechanics → **python-scripts-and-services** **[`flask-serving`](../python-scripts-and-services/flask-serving.md)**
-- **Formal** security or **Jira** program in your org → your **internal** runbooks; **[`shift-left-program`](../shift-left-program/SKILL.md)** is a thin habits layer only.
+- **Formal** security or **Jira** program in your org → your **internal** runbooks; **[`shift-left-security`](../shift-left-security/SKILL.md)** is a thin habits layer only.
 
 ## Topic files (this folder)
 

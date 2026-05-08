@@ -39,7 +39,7 @@ A distilled set of **themes** and **checklists** is in [reference.md](reference.
 
 | Topic (program level) | See |
 |------------------------|-----|
-| **Shift-left / AppSec** context | [shift-left-program](../shift-left-program/SKILL.md) |
+| **Shift-left / AppSec** context | [shift-left-security](../shift-left-security/SKILL.md) |
 | **Formal** threat model, **DLP** / **incident** **process** | **Your** org’s **internal** runbooks; **this** file does **not** name **them**. |
 
 **Authored** for **teaching and habits**. Point readers at **the** **stable** **URL** for **your** data-handling and privacy policies in [reference.md](reference.md#10-calibrate-to-your-org) when you maintain a fork.
