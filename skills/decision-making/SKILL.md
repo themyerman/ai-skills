@@ -18,7 +18,7 @@ description: >-
 
 A **structured** approach to choosing between real candidates — after the option space is open, before you commit. It covers the full decision lifecycle: classifying the decision, scoring options, assigning ownership, stress-testing the choice, and recording it so you don't relitigate it.
 
-**This skill is not** a replacement for formal processes: large architectural proposals go to **[`technical-rfcs`](../technical-rfcs/SKILL.md)** and **[`major-change-readiness`](../major-change-readiness/SKILL.md)**; initiative prioritization with a PRD goes to **[`product-management`](../product-management/SKILL.md)**. Use this skill when you need a decision method, not a program.
+**This skill is not** a replacement for formal processes: large architectural proposals go to **[`technical-rfcs`](../technical-rfcs/SKILL.md)** and **[`ship-checklist`](../ship-checklist/SKILL.md)**; initiative prioritization with a PRD goes to **[`product-management`](../product-management/SKILL.md)**. Use this skill when you need a decision method, not a program.
 
 ## When to use this skill
 
@@ -244,7 +244,7 @@ Paste this block into your `docs/decisions/` file, a Confluence page, or a Jira 
 This skill handles the decision method. For the following, hand off to the right skill before or after using this one:
 
 - **Security and compliance decisions** (threat model scope, data classification, access controls): your org's formal security intake process
-- **Large architectural changes** needing async written input from many engineers: **[`technical-rfcs`](../technical-rfcs/SKILL.md)** and **[`major-change-readiness`](../major-change-readiness/SKILL.md)**
+- **Large architectural changes** needing async written input from many engineers: **[`technical-rfcs`](../technical-rfcs/SKILL.md)** and **[`ship-checklist`](../ship-checklist/SKILL.md)**
 - **Resource, headcount, or portfolio decisions** with executive visibility: **[`product-management`](../product-management/SKILL.md)** and **[`executive-reports`](../executive-reports/SKILL.md)**
 - **Incident decisions** (rollback, hotfix, customer communication during an outage): **[`incident-response`](../incident-response/SKILL.md)**
 

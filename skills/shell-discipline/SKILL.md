@@ -16,7 +16,7 @@ This skill is intentionally narrower than general coding guidance. It is an **op
 
 Pull these in when relevant:
 
-- **[`verification-loop`](../verification-loop/SKILL.md)** — proving steps after changes (lint, types, tests)
+- **[`pre-pr-checklist`](../pre-pr-checklist/SKILL.md)** — proving steps after changes (lint, types, tests)
 - **[`python-scripts-and-services/testing-strategy.md`](../python-scripts-and-services/testing-strategy.md)** — when the fix needs regression coverage
 - **[`secrets-management`](../secrets-management/SKILL.md)** — secrets, auth, or credentials in play
 - **`gh` / hosting UI** — when the task depends on CI runs, PR state, or release status (no separate `github-ops` skill here)

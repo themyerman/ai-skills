@@ -12,7 +12,7 @@ For binding rules, work with your org’s Privacy, Legal, and Security teams. Th
 
 This section distills **themes** many teams care about: classification, **minimization**, support- and case-style handling, vendors, and indirect access (e.g. screen share). It does **not** replace authoritative text from your Legal, Privacy, or Security teams.
 
-Read your current data handling, personal/customer data definitions, acceptable use (including Generative AI if applicable), and any “handling in support” or DLP documents in your system of record.
+Read your current data handling, personal/customer data definitions, acceptable use (including Generative AI if applicable), and any “handling in support” or DLP documents in your internal docs.
 
 ### Definitions (verify against *your* current text)
 
@@ -24,9 +24,9 @@ Read your current data handling, personal/customer data definitions, acceptable 
 | Theme | Implication (non-exhaustive) |
 |-------|--------------------------------|
 | **Environments** | Production-like real data in dev/QA is often restricted without an exception and approved path. **Synthetic** or **anonymized** fixtures are the default. |
-| **Support, cases, tickets, chat** | Your org's acceptable use and support-handling policies govern what not to put in Jira/Slack/email; read the live text. [§4](#4-collaboration-slack-email-wikis-and-tickets) below is a generic habit layer only. |
+| **Support, cases, tickets, chat** | Your org's acceptable use and support-handling policies govern what not to put in Jira/Slack/email; check the current version. [§4](#4-collaboration-slack-email-wikis-and-tickets) below is a generic habit layer only. |
 | **Indirect access** | Screen share and co-viewing can still be access; policies often require need-to-know and care with recordings and remote control. |
-| **Vendors, subprocessors, new SaaS/LLM** | New tools that process work data may need Privacy / Legal / Security or DPA work before broad rollout. [§0.1](#01-illustrative-genai-and-third-party-tools) is illustration only. |
+| **Vendors, subprocessors, new SaaS/LLM** | New tools that process work data may need Privacy / Legal / Security or a data processing agreement review before broad rollout. [§0.1](#01-illustrative-genai-and-third-party-tools) is illustration only. |
 | **Incidents** | Use your org’s **incident** and **breach** playbooks. |
 
 ### 0.1 Illustrative: GenAI and third-party tools
@@ -104,7 +104,7 @@ Follow your org’s playbooks. A typical order: **(1) contain** the spread, **(2
 ### 9.1 New feature (author)
 
 - [ ] **Data** classes and user-generated or pasted **content** identified.
-- [ ] Smallest storage and shortest **retention** you can justify; steward for non-trivial cases.
+- [ ] Smallest storage and shortest **retention** you can justify; get a human owner assigned for non-trivial cases.
 - [ ] Log design: no raw PII on default paths.
 - [ ] Test data synthetic or from an **approved** fixture.
 - [ ] If **LLM** [llm-integrations-safety](../llm-integrations-safety/SKILL.md) and org vendor/DLP checks as required.
@@ -112,7 +112,7 @@ Follow your org’s playbooks. A typical order: **(1) contain** the spread, **(2
 ### 9.2 PR / review (reviewer)
 
 - [ ] No new broad logging of names, emails, or full response bodies in logs or “print on failure” dumps.
-- [ ] No unbounded storage of ticket or email **bodies** without a clear need (often a threat model or sponsor).
+- [ ] No unbounded storage of ticket or email **bodies** without a clear need .
 - [ ] If using a prod **copy** or a new **export**, Privacy/DBA/Security are in the design before launch.
 - [ ] Exports, CSV, CI: no PII in artifact **names** or job logs when avoidable.
 

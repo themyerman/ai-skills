@@ -84,7 +84,7 @@ Default to **skills** that orchestrate existing tools when the need is operation
 ## Related
 
 - **[`codebase-onboarding`](../codebase-onboarding/SKILL.md)** — structured repo recon  
-- **[`automation-audit-ops`](../automation-audit-ops/SKILL.md)** — overlap / CI inventory  
+- **[`automation-audit`](../automation-audit/SKILL.md)** — overlap / CI inventory  
 - **[`using-ai-assistants`](../using-ai-assistants/SKILL.md)** — context and safety habits  
 
 ## Source

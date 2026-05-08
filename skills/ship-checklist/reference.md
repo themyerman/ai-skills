@@ -45,4 +45,4 @@ Use before **merging** a **large** or **security-relevant** change. **Check** ev
 
 ---
 
-*Part of **[`SKILL.md`](SKILL.md)** in **major-change-readiness**.*
+*Part of **[`SKILL.md`](SKILL.md)** in **ship-checklist**.*

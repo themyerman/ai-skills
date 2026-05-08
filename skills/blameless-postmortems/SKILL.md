@@ -40,7 +40,7 @@ A **thin** pattern for **learning** from **incidents** and **near-misses** **wit
 - **Stakeholder-facing** **incident** **summary** or **exec** **update** (BLUF, **limitations**): **[`executive-reports`](../executive-reports/SKILL.md)**  
 - **Runbook** and **how-to** **updates** after the incident: **[`docs-clear-writing`](../docs-clear-writing/SKILL.md)**  
 - **Python** **tooling** **and** **logging** **gaps**: **[`python-scripts-and-services`](../python-scripts-and-services/SKILL.md)** (**logging**, **testing**, **security**)  
-- **Next** **merge** **quality** **gate**: **[`major-change-readiness`](../major-change-readiness/SKILL.md)**  
+- **Next** **merge** **quality** **gate**: **[`ship-checklist`](../ship-checklist/SKILL.md)**  
 - **Routing:** [`../../SKILLS.md`](../../SKILLS.md)
 
 ## Source

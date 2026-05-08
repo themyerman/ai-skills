@@ -390,8 +390,8 @@ git push --force-with-lease origin feature/PROJ-456-bulk-triage
 
 ## Related
 
-- **Pre-merge quality gate** (tests, README, TM alignment): **[`major-change-readiness`](../major-change-readiness/SKILL.md)**
-- **Lint, type-check, test before push**: **[`verification-loop`](../verification-loop/SKILL.md)**
+- **Pre-merge quality gate** (tests, README, TM alignment): **[`ship-checklist`](../ship-checklist/SKILL.md)**
+- **Lint, type-check, test before push**: **[`pre-pr-checklist`](../pre-pr-checklist/SKILL.md)**
 - **CHANGELOG and release notes format**: **[`docs-clear-writing / changelog-release-notes.md`](../docs-clear-writing/changelog-release-notes.md)**
 - **`.gitignore` for secrets, CI scanning, gitleaks**: **[`secrets-management`](../secrets-management/SKILL.md)**
 - **Routing**: [`../../SKILLS.md`](../../SKILLS.md)

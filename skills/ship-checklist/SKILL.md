@@ -7,7 +7,7 @@ description: >-
   update, all pytest pass, documentation drift, major refactor readiness.
 ---
 
-# major-change-readiness
+# ship-checklist
 
 ## What this is
 

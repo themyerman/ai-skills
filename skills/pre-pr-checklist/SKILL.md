@@ -10,7 +10,7 @@ description: >-
 
 Run **before a PR** or after a **substantial** change. **Skip phases** that do not apply to the stack (e.g. no `package.json` → skip npm build).
 
-**Pair with:** **[`major-change-readiness`](../major-change-readiness/SKILL.md)** (README / `WORK` / TM when needed) and **[`terminal-ops`](../terminal-ops/SKILL.md)** (evidence-style reporting).
+**Pair with:** **[`ship-checklist`](../ship-checklist/SKILL.md)** (README / `WORK` / TM when needed) and **[`shell-discipline`](../shell-discipline/SKILL.md)** (evidence-style reporting).
 
 ## When to use
 
@@ -134,7 +134,7 @@ Issues:
 
 ## Continuous mode
 
-On long sessions, re-run **minimal** proving commands after each coherent chunk of work (or use **`terminal-ops`** discipline).
+On long sessions, re-run **minimal** proving commands after each coherent chunk of work (or use **`shell-discipline`** discipline).
 
 ## Source
 

@@ -27,8 +27,8 @@ Prefer configured tools over blind **`curl`** when auditing your org's CI — fa
 
 ## Skill stack (this repo)
 
-- **[`workspace-surface-audit`](../workspace-surface-audit/SKILL.md)** — connectors, MCP, hooks, env inventory
-- **[`verification-loop`](../verification-loop/SKILL.md)** — prove post-fix state
+- **[`environment-audit`](../environment-audit/SKILL.md)** — connectors, MCP, hooks, env inventory
+- **[`pre-pr-checklist`](../pre-pr-checklist/SKILL.md)** — prove post-fix state
 - **`gh` / CI YAML** — read **`.github/workflows/`**, job logs when MCP absent
 - **`README` / `WORK.md`** — durable notes when reconciling "what we think" vs "what runs"
 

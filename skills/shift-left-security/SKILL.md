@@ -9,7 +9,7 @@ description: |
 
 # Shift-left and your security program (thin)
 
-This is **not** a replacement for your organization’s official security, compliance, or GRC process. It lists **considerations** if you want to **move security earlier** in the lifecycle and make it **sustainable** for engineering.
+This is not a replacement for your organization’s official security, compliance process. It lists considerations for moving security earlier in the lifecycle and making it sustainable for engineering.
 
 ## Why shift-left
 

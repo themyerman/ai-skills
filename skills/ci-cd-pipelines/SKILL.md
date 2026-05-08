@@ -17,7 +17,7 @@ description: >-
 
 Practical patterns for **GitHub Actions** (primary) and **GitLab CI** (secondary) for **Python internal tools**: workflow layout, caching, matrix builds, secrets hygiene, reusable workflows, and deploy-on-merge. The goal is a pipeline that is **fast**, **correct**, and **safe to copy into a new repo without modification**.
 
-For secrets storage and rotation policy: [`secrets-management`](../secrets-management/SKILL.md). For pre-PR quality gates you run locally first: [`verification-loop`](../verification-loop/SKILL.md). For Docker-based deploy targets: [`docker-containerization`](../docker-containerization/SKILL.md).
+For secrets storage and rotation policy: [`secrets-management`](../secrets-management/SKILL.md). For pre-PR quality gates you run locally first: [`pre-pr-checklist`](../pre-pr-checklist/SKILL.md). For Docker-based deploy targets: [`docker-containerization`](../docker-containerization/SKILL.md).
 
 ---
 
@@ -661,8 +661,8 @@ deploy:
 
 ## Related
 
-- **Before pushing — run quality gates locally:** [`verification-loop`](../verification-loop/SKILL.md)
-- **Merge readiness (README, WORK, TM gates):** [`major-change-readiness`](../major-change-readiness/SKILL.md)
+- **Before pushing — run quality gates locally:** [`pre-pr-checklist`](../pre-pr-checklist/SKILL.md)
+- **Merge readiness (README, WORK, TM gates):** [`ship-checklist`](../ship-checklist/SKILL.md)
 - **Secrets hygiene, leak response, policy:** [`secrets-management`](../secrets-management/SKILL.md)
 - **Docker build and push in CD:** [`docker-containerization`](../docker-containerization/SKILL.md)
 - **Dependency auditing (pip-audit, Dependabot, CVE triage):** [`dependency-security`](../dependency-security/SKILL.md)
