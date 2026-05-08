@@ -2,9 +2,9 @@
 
 **Hub:** [SKILL.md](SKILL.md)
 
-**Not** legal, employment, or jurisdiction-specific advice. This file is **not** a copy of any employer’s policy text. Use the **current** published policy from your org (internal portal, wiki, or official PDF) as the source of truth for obligations.
+Not legal, employment, or jurisdiction-specific advice. This file is not a copy of any employer’s policy text. Use the current published policy from your org as the source of truth for obligations.
 
-For **binding** rules, work with your org’s **Privacy**, **Legal**, and **Security** programs. This document is a practical engineering and collaboration layer.
+For binding rules, work with your org’s Privacy, Legal, and Security teams. This document is a practical engineering and collaboration layer.
 
 ---
 
@@ -12,7 +12,7 @@ For **binding** rules, work with your org’s **Privacy**, **Legal**, and **Secu
 
 This section distills **themes** many teams care about: classification, **minimization**, support- and case-style handling, vendors, and indirect access (e.g. screen share). It does **not** replace authoritative text from your Legal, Privacy, or Security teams.
 
-Read your current **data handling**, **person or customer** data definitions, **acceptable use** (including **Generative AI** if applicable), and any **“handling in support”** or **DLP** documents in **your** system of record.
+Read your current data handling, personal/customer data definitions, acceptable use (including Generative AI if applicable), and any “handling in support” or DLP documents in your system of record.
 
 ### Definitions (verify against *your* current text)
 
@@ -24,14 +24,14 @@ Read your current **data handling**, **person or customer** data definitions, **
 | Theme | Implication (non-exhaustive) |
 |-------|--------------------------------|
 | **Environments** | Production-like real data in dev/QA is often restricted without an exception and approved path. **Synthetic** or **anonymized** fixtures are the default. |
-| **Support, cases, tickets, chat** | “Handling in support” and **AUP** docs govern what not to put in Jira/Slack/email; read the live text. [§4](#4-collaboration-slack-email-wikis-and-tickets) below is a generic habit layer only. |
+| **Support, cases, tickets, chat** | Your org's acceptable use and support-handling policies govern what not to put in Jira/Slack/email; read the live text. [§4](#4-collaboration-slack-email-wikis-and-tickets) below is a generic habit layer only. |
 | **Indirect access** | Screen share and co-viewing can still be access; policies often require need-to-know and care with recordings and remote control. |
 | **Vendors, subprocessors, new SaaS/LLM** | New tools that process work data may need Privacy / Legal / Security or DPA work before broad rollout. [§0.1](#01-illustrative-genai-and-third-party-tools) is illustration only. |
 | **Incidents** | Use your org’s **incident** and **breach** playbooks. |
 
 ### 0.1 Illustrative: GenAI and third-party tools
 
-**Illustration only, not your policy:** A new browser add-on, **SaaS**, or **GenAI** product may move work content into **retention** or **subprocessor** scope that **differs** from your approved default stack. Threat- and **compliance**-style review often looks at (a) unintended **storage** or **training** and (b) **DPA** / **subprocessor** / **testing** fit **before** pasting work into a new surface. This does not replace your published **AUP** or data-handling text.
+**Illustration only, not your policy:** A new browser add-on, SaaS, or GenAI product may move work content into retention or subprocessor scope that differs from your approved default stack. Compliance-style review typically looks at (a) unintended storage or training and (b) DPA/subprocessor fit before pasting work into a new surface. This does not replace your org's acceptable use or data-handling policies.
 
 ---
 
@@ -58,7 +58,7 @@ Map to your org’s **named** tiers (Confidential, PII, and so on) when you need
 
 ## 3. Logging and observability
 
-- **Your** org’s **Application Security** and **logging/observability** policies (not this paragraph) define what must not appear in application and system logs and how central logging works. If those **live** documents and the bullets below **disagree**, your **policy** wins.
+- Your org’s logging and observability policies define what must not appear in application and system logs. If those documents and the bullets below disagree, policy wins.
 - By default, avoid full emails, phone numbers, and legal names in `INFO`/`ERROR` lines unless you have an allowlist. Prefer opaque or internal numeric IDs. Traces and error trackers: avoid unbounded ticket bodies or free text as **tags** that get indexed widely.
 - Error bodies from **external** APIs can contain PII: truncate, redact, or avoid persisting without a clear need.
 
@@ -125,6 +125,6 @@ Follow your org’s playbooks. A typical order: **(1) contain** the spread, **(2
 
 ## 10. Calibrate to your org
 
-Maintain a **durable** **link** in **your** internal **docs** to the **authoritative** policy **index** your org uses. Obligations and versions **change** there, not in a static **fork** of this repository.
+Maintain a link in your internal docs to the authoritative policy index your org uses. Obligations and versions change there, not in a static fork of this repository.
 
 *Public-edition reference: a habit and teaching layer, not a regulatory copy of a specific employer’s policy set.*
