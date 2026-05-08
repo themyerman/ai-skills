@@ -13,55 +13,55 @@ description: >-
 
 ## What this is
 
-**Cross-role** (not tied to a language) **operating** habits: how to get **reliable** work from an **agent** without treating it as **infallible**. It **complements** (and does not replace) your org’s **acceptable use**, **data classification**, and **InfoSec** policies.
+Cross-role habits for getting reliable work from an AI assistant without treating it as infallible. Complements (does not replace) your org's acceptable use, data classification, and InfoSec policies.
 
 ## When to use
 
-- You are new to **Cursor** / **IDE** assistants and want a **sane default** workflow.  
-- You **sponsor** or **review** work that was **partly** model-generated.  
-- You are deciding: **“draft with AI + human verify”** vs **“human owns from scratch.”**
+- You're new to Cursor / IDE assistants and want a sane default workflow.
+- You're reviewing work that was partly model-generated.
+- You're deciding: "draft with AI + human verify" vs "human owns from scratch."
 
 ## Habits
 
 ### 1. Set context on purpose
 
-- **Goal** in one line; **done when** in one line (artifact, test, or sign-off you need).  
-- Attach or **@** the **smallest** set of **files** / **symbols** that must stay true. Avoid “whole repository” as the default.  
-- State **constraints**: internal vs external, “**no** new third-party deps without approval,” “match this **`SKILL` / pattern** in `ai-skills`.”
+- Goal in one line; done-when in one line (artifact, test, or sign-off you need).
+- Attach or @ the smallest set of files / symbols that must stay true. Avoid "whole repository" as the default.
+- State constraints: internal vs external, "no new third-party deps without approval," "match this pattern in ai-skills."
 
 ### 2. Work in small wins
 
-- Prefer **one** failure mode per **turn** or **PR**: **repro** → **change** → **check**.  
-- Ask for **reviewable** diffs, not a **single** blob that rewrites ten modules.
+- Prefer one failure mode per turn or PR: repro → change → check.
+- Ask for reviewable diffs, not a single blob that rewrites ten modules.
 
-### 3. Verify, don’t vibe-check
+### 3. Verify, don't vibe-check
 
-- **Run** tests, **read** the diff, **reproduce** before/after for bugs. The model is **faster** search and typing, not a **warranty**.  
-- If the answer **cites** APIs, **paths**, or **version** numbers, **confirm** in the real tree, lockfile, or official docs.
+- Run tests, read the diff, reproduce before/after for bugs. The model is faster search and typing, not a warranty.
+- If the answer cites APIs, paths, or version numbers, confirm in the real tree, lockfile, or official docs.
 
 ### 4. Red lines
 
-- **No** long-lived **secrets**, tokens, production **passwords**, or **sensitive** personal/employee/**customer** data in prompts, **scratch** buffers, or **logs** you will paste. Follow **your** org’s **policy**; this file is a **reminder** only.  
-- If you are not sure a **class** of data may be sent to a **vendor** or **model** provider, use the **escalation** path your org defines (security / legal / data owner) **before** “just trying it.”
+- No long-lived secrets, tokens, production passwords, or sensitive personal/customer data in prompts, scratch buffers, or logs you'll paste. Follow your org's policy; this file is a reminder only.
+- If you're not sure whether a class of data can go to a vendor or model provider, check with security / legal / data owner before trying it.
 
 ### 5. Escalation to humans (still required)
 
-- **Architecture**, **compliance** sign-off, **re-org**, **resourcing**, **jurisdictions**, **threat** trade-offs, **formal** org **security** program: **owners** and **processes**, not the model.  
-- For **in-product** **LLM** features (mock client, system prompt, **I/O** screening, audit): **[`llm-integrations-safety`](../llm-integrations-safety/SKILL.md)**.  
-- For **Python** merge **readiness**: **[`code-review`](../python-scripts-and-services/code-review.md)**. For org **Jira** / **security** **process:** your **internal** runbooks; **[`shift-left-security`](../shift-left-security/SKILL.md)** is context only.
+- Architecture, compliance sign-off, resourcing, jurisdiction questions, threat trade-offs, formal security review: these need owners and processes, not a model.
+- For in-product LLM features (mock client, system prompt, I/O screening, audit): [`llm-integrations-safety`](../llm-integrations-safety/SKILL.md).
+- For Python merge readiness: [`code-review`](../python-scripts-and-services/code-review.md). For security process: your internal runbooks; [`shift-left-security`](../shift-left-security/SKILL.md) is context only.
 
-## This vs **llm-integrations-safety**
+## This vs llm-integrations-safety
 
 | Topic | Open |
 |--------|------|
-| **You** and colleagues using a **tooling** **assistant** in the **editor** to write/ship **normal** code and docs | **this skill** |
-| **Your** product **calls** an **LLM** **API** for features | **`llm-integrations-safety`** (plus **security** review as your org requires) |
+| You and colleagues using an AI assistant in the editor to write/ship normal code and docs | this skill |
+| Your product calls an LLM API for features | `llm-integrations-safety` |
 
 ## Related
 
-- **Writing** and **editing** prose (README, runbook, exec summary): [`docs-clear-writing`](../docs-clear-writing/SKILL.md) and [`executive-reports`](../executive-reports/SKILL.md)  
-- **Routing** the rest of **ai-skills**: [`../../SKILLS.md`](../../SKILLS.md)
+- Writing and editing prose (README, runbook, exec summary): [`docs-clear-writing`](../docs-clear-writing/SKILL.md) and [`executive-reports`](../executive-reports/SKILL.md)
+- Routing the rest of ai-skills: [`../../SKILLS.md`](../../SKILLS.md)
 
 ## Source
 
-Authored for **ai-skills**; not derived from **`.claude/CLAUDE.md`**. **Override** with **org**-specific **governance** when they conflict with anything here.
+Authored for ai-skills; not derived from `.claude/CLAUDE.md`.
