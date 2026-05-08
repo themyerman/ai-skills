@@ -28,13 +28,13 @@ Use your employer’s **authoritative** policy index for **password and secret**
 - **Writing or reviewing** code: **config** loading, **env** only at startup, **tests** that do not hit **prod** creds, **Docker/CI** without **baking** keys, **pre-commit** or **gitleaks**-class checks.
 - **Local dev** and **.env** discipline; **preventing** commits and **log** leaks.
 - **After a suspected leak** or **exposure in a log**—**rotate** and **contain** first; the skill does **not** tell you a one-size path without your org’s runbook.
-- **Pairing** with [python-internal-tools / security.md](../python-internal-tools/security.md) (code-level) and [shift-left-program](../shift-left-program/SKILL.md) (org **handoff** context) for **tickets** / design review **redact** in text.
+- **Pairing** with [python-scripts-and-services / security.md](../python-scripts-and-services/security.md) (code-level) and [shift-left-program](../shift-left-program/SKILL.md) (org **handoff** context) for **tickets** / design review **redact** in text.
 
 ## Not in scope (route elsewhere)
 
 | Need | See |
 |------|-----|
-| **Python**-specific: `config.yaml`, `requests`, validation | [python-internal-tools / security.md](../python-internal-tools/security.md), [jira.md](../python-internal-tools/jira.md) |
+| **Python**-specific: `config.yaml`, `requests`, validation | [python-scripts-and-services / security.md](../python-scripts-and-services/security.md), [jira.md](../python-scripts-and-services/jira.md) |
 | **Threat model / formal** org **review** | [shift-left-program](../shift-left-program/SKILL.md) + your internal runbooks |
 | **LLM** API keys, mocks, audit in app | [llm-integrations-safety](../llm-integrations-safety/SKILL.md) |
 | **Writing** clear runbooks (tone, structure) | [docs-clear-writing](../docs-clear-writing/SKILL.md) |

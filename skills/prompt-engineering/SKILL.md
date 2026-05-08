@@ -24,7 +24,7 @@ This skill is about **prompts you write in application code**: system messages, 
 
 - [`llm-integrations-safety`](../llm-integrations-safety/SKILL.md) — security: prompt injection screening, input/output anomaly detection, the `screen_input()` / `screen_output()` pattern, audit logging, never-silent-mock-in-prod. Read that skill before shipping any LLM feature.
 - [`data-handling-pii`](../data-handling-pii/SKILL.md) — when ticket text, user input, or model output may include PII. Do not include PII in prompts unnecessarily.
-- [`python-internal-tools`](../python-internal-tools/SKILL.md) — project layout, config, venv, tests, and CLI design.
+- [`python-scripts-and-services`](../python-scripts-and-services/SKILL.md) — project layout, config, venv, tests, and CLI design.
 
 ---
 
@@ -607,7 +607,7 @@ The SECURITY NOTICE is one layer. It is not a complete defense. Pair it with:
 | Injection screening, anomaly detection, audit logging, never-silent-mock-in-prod | [`llm-integrations-safety`](../llm-integrations-safety/SKILL.md) |
 | Using Claude / Copilot in your editor to write code | [`using-ai-assistants`](../using-ai-assistants/SKILL.md) |
 | PII in prompts, ticket text, or model output | [`data-handling-pii`](../data-handling-pii/SKILL.md) |
-| Python project layout, config, venv, pytest, Flask | [`python-internal-tools`](../python-internal-tools/SKILL.md) |
+| Python project layout, config, venv, pytest, Flask | [`python-scripts-and-services`](../python-scripts-and-services/SKILL.md) |
 
 ## Source
 

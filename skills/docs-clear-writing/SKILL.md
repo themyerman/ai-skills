@@ -5,7 +5,7 @@ description: >-
   runbooks), blog posts, social media (Mastodon, Instagram, Patreon), and web
   copy (headlines, CTAs, about pages, product descriptions). Hub: readmes,
   installation-guides, user-instructions-howto, plain-english, content-writing.
-  Pairs with executive-reports (exec narrative) and python-internal-tools
+  Pairs with executive-reports (exec narrative) and python-scripts-and-services
   documentation (where to put files). Triggers: document this, user guide,
   onboarding, SOP, plain language, README rewrite, blog post, caption,
   Patreon post, web copy, about page, social media.
@@ -15,7 +15,7 @@ description: >-
 
 ## What this is
 
-The **umbrella** for **how** to write **clear** technical text: **scannable** headings, **task-based** flow, **verify** steps, and **honest** limits. We also standardize **plain-English, layman-friendly** wording in **[plain-english.md](plain-english.md)** (professional tone—**not** cutesy or over-long). It is **not** the **org chart** of files in a particular language repo—for **Python** tools, **[`python-internal-tools` / `documentation.md`](../python-internal-tools/documentation.md)** says **where** (README vs `WORK.md` vs `docs/`) and defers here for **craft**. For **leadership / exec** narrative, BLUF, and “who reads which part,” use **[`executive-reports`](../executive-reports/SKILL.md)**—a **specialist** in this **family**, not a duplicate of this skill.
+The **umbrella** for **how** to write **clear** technical text: **scannable** headings, **task-based** flow, **verify** steps, and **honest** limits. We also standardize **plain-English, layman-friendly** wording in **[plain-english.md](plain-english.md)** (professional tone—**not** cutesy or over-long). It is **not** the **org chart** of files in a particular language repo—for **Python** tools, **[`python-scripts-and-services` / `documentation.md`](../python-scripts-and-services/documentation.md)** says **where** (README vs `WORK.md` vs `docs/`) and defers here for **craft**. For **leadership / exec** narrative, BLUF, and “who reads which part,” use **[`executive-reports`](../executive-reports/SKILL.md)**—a **specialist** in this **family**, not a duplicate of this skill.
 
 ## Router: which file to open
 
@@ -28,7 +28,7 @@ The **umbrella** for **how** to write **clear** technical text: **scannable** he
 | **Exec / stakeholder** summary, rollup, appendices, partner lens | **[`executive-reports`](../executive-reports/SKILL.md)** |
 | **Plain English**, **accessible** wording, **jargon** discipline (not chatty) | **[plain-english.md](plain-english.md)** |
 | **Blog posts, social media** (Mastodon, Instagram, Patreon), **web copy** | **[content-writing.md](content-writing.md)** |
-| **Where** docs live in a **Python** project (README, `docs/`, `WORK.md`) and **Jira/CLI** links | **[`documentation.md`](../python-internal-tools/documentation.md)** |
+| **Where** docs live in a **Python** project (README, `docs/`, `WORK.md`) and **Jira/CLI** links | **[`documentation.md`](../python-scripts-and-services/documentation.md)** |
 
 ## When to use
 
@@ -40,8 +40,8 @@ The **umbrella** for **how** to write **clear** technical text: **scannable** he
 
 ## When to use something else
 
-- **Code review** of the change set → **[`code-review.md`](../python-internal-tools/code-review.md)**
-- **Flask** or **template** mechanics → **python-internal-tools** **[`flask-serving`](../python-internal-tools/flask-serving.md)**
+- **Code review** of the change set → **[`code-review.md`](../python-scripts-and-services/code-review.md)**
+- **Flask** or **template** mechanics → **python-scripts-and-services** **[`flask-serving`](../python-scripts-and-services/flask-serving.md)**
 - **Formal** security or **Jira** program in your org → your **internal** runbooks; **[`shift-left-program`](../shift-left-program/SKILL.md)** is a thin habits layer only.
 
 ## Topic files (this folder)

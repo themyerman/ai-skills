@@ -17,10 +17,10 @@ This skill is intentionally narrower than general coding guidance. It is an **op
 Pull these in when relevant:
 
 - **[`verification-loop`](../verification-loop/SKILL.md)** — proving steps after changes (lint, types, tests)
-- **[`python-internal-tools/testing-strategy.md`](../python-internal-tools/testing-strategy.md)** — when the fix needs regression coverage
+- **[`python-scripts-and-services/testing-strategy.md`](../python-scripts-and-services/testing-strategy.md)** — when the fix needs regression coverage
 - **[`secrets-management`](../secrets-management/SKILL.md)** — secrets, auth, or credentials in play
 - **`gh` / hosting UI** — when the task depends on CI runs, PR state, or release status (no separate `github-ops` skill here)
-- **`README` / `WORK.md` / `docs/`** — when the verified outcome should be captured per **[`documentation.md`](../python-internal-tools/documentation.md)**
+- **`README` / `WORK.md` / `docs/`** — when the verified outcome should be captured per **[`documentation.md`](../python-scripts-and-services/documentation.md)**
 
 ## When to Use
 

@@ -1,5 +1,5 @@
 ---
-name: python-internal-tools
+name: python-scripts-and-services
 description: >-
   Python internal services and CLIs: layout, venv, pyproject, ruff, pytest,
   httpx/requests, Jira client, logging, config yaml+env, SQLite, Flask+Jinja,
@@ -14,7 +14,7 @@ description: >-
   resynced from .claude/CLAUDE.md (see Source in SKILL).
 ---
 
-# python-internal-tools
+# python-scripts-and-services
 
 ## What this is
 

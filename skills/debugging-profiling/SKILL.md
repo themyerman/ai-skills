@@ -14,7 +14,7 @@ description: >-
 
 A reference for diagnosing and fixing problems in Python internal tools and services. Covers interactive debugging with `pdb`, targeted logging, traceback interpretation, CPU and memory profiling, HTTP and SQLite inspection, and a catalog of common Python bugs with minimal reproducers.
 
-**Related skills:** `python-internal-tools`, `python-internal-tools/logging-structured.md`, `observability`.
+**Related skills:** `python-scripts-and-services`, `python-scripts-and-services/logging-structured.md`, `observability`.
 
 ---
 
@@ -689,7 +689,7 @@ result = "\n".join(lines) + "\n"
 
 ## Related
 
-- **Python project layout, config, venv, pytest:** [`python-internal-tools`](../python-internal-tools/SKILL.md)
+- **Python project layout, config, venv, pytest:** [`python-scripts-and-services`](../python-scripts-and-services/SKILL.md)
 - **Async code: event loop hangs, coroutine tracing:** [`async-python`](../async-python/SKILL.md)
 - **Observability: structured logs and metrics to narrow where to look:** [`observability`](../observability/SKILL.md)
 - **Incident triage in production:** [`incident-response`](../incident-response/SKILL.md)

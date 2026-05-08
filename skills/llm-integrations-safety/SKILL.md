@@ -25,7 +25,7 @@ description: >-
 
 ## Pair with
 
-**`python-internal-tools`** for project layout, config, tests, and CLI design. **`data-handling-pii`** when ticket or output may include **PII** or other **sensitive** data, or when **acceptable-use** policy governs use of **AI** with **work** content.
+**`python-scripts-and-services`** for project layout, config, tests, and CLI design. **`data-handling-pii`** when ticket or output may include **PII** or other **sensitive** data, or when **acceptable-use** policy governs use of **AI** with **work** content.
 
 ## Your organization (read current policy; this skill is not a legal copy)
 

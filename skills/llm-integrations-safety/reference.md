@@ -2,7 +2,7 @@
 
 # LLM integration patterns (full reference)
 
-This is **section 9** of the [canonical developer guide](../../.claude/CLAUDE.md). A **typical** layout is a **central** module (often something like `anomaly`) and storage helpers; **your** package layout may differ—**keep the same responsibilities** in one place. For the rest of the guide, see the **python-internal-tools** skill.
+This is **section 9** of the [canonical developer guide](../../.claude/CLAUDE.md). A **typical** layout is a **central** module (often something like `anomaly`) and storage helpers; **your** package layout may differ—**keep the same responsibilities** in one place. For the rest of the guide, see the **python-scripts-and-services** skill.
 
 **Your org:** read your employer’s current **Application Security**, **Acceptable Use** (including **GenAI** if applicable), and **data handling** policies; [SKILL.md](SKILL.md) is a router only, not a policy excerpt.
 

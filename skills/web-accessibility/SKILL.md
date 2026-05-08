@@ -16,7 +16,7 @@ description: >-
 
 **Default read order** (this repo): [web-frontend-basics](../web-frontend-basics/SKILL.md) → [web-layout-css](../web-layout-css/SKILL.md) → **web-accessibility (here)** — chart: [`SKILLS.md`](../../SKILLS.md#web-ui-default-reading-order).
 
-**Structure and HTML:** [web-frontend-basics](../web-frontend-basics/SKILL.md). **CSS** layout and **print:** [web-layout-css](../web-layout-css/SKILL.md). **Flask, Jinja, security headers:** [python-internal-tools / `flask-serving.md`](../python-internal-tools/flask-serving.md).
+**Structure and HTML:** [web-frontend-basics](../web-frontend-basics/SKILL.md). **CSS** layout and **print:** [web-layout-css](../web-layout-css/SKILL.md). **Flask, Jinja, security headers:** [python-scripts-and-services / `flask-serving.md`](../python-scripts-and-services/flask-serving.md).
 
 ## When to use
 

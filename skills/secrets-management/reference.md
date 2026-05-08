@@ -1,6 +1,6 @@
 # Reference: secrets management (broad eng)
 
-**Hub:** [SKILL.md](SKILL.md) · **Python code practices:** [python-internal-tools / security.md](../python-internal-tools/security.md)
+**Hub:** [SKILL.md](SKILL.md) · **Python code practices:** [python-scripts-and-services / security.md](../python-scripts-and-services/security.md)
 
 **Your org:** Your employer’s **published** policy **index** is the source of truth for **password/secret** management, **Application Security** (e.g. secrets in **CI**/**CD**), **Acceptable Use** (credentials in **Slack**/**email**), and **encryption** / key rules. [SKILL.md](SKILL.md) is a **router** only. If a detail in this file and that source disagree, **the source wins**.
 
@@ -91,7 +91,7 @@ This section is the **main coding** complement to collaboration and runtime inje
 
 ### 3.8 Python (and when to go deeper)
 
-For **Jira** clients, **Flask**, `requests.Session`, and **file**-based `config` patterns, **use** [python-internal-tools / security.md](../python-internal-tools/security.md) and [jira.md](../python-internal-tools/jira.md) as the **code-level** **canonical** add-on to **this** skill.
+For **Jira** clients, **Flask**, `requests.Session`, and **file**-based `config` patterns, **use** [python-scripts-and-services / security.md](../python-scripts-and-services/security.md) and [jira.md](../python-scripts-and-services/jira.md) as the **code-level** **canonical** add-on to **this** skill.
 
 ---
 

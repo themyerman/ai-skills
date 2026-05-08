@@ -20,8 +20,8 @@ handling, mixing sync and async code, and a copy-paste-ready Jira fetch
 function.
 
 **Related skills:**
-- `python-internal-tools` — config, logging, project layout, testing
-- `python-internal-tools/http-clients-reliability.md` — retries, backoff, timeouts
+- `python-scripts-and-services` — config, logging, project layout, testing
+- `python-scripts-and-services/http-clients-reliability.md` — retries, backoff, timeouts
 - `data-pipelines` — ETL, incremental load, chunking; async is often the right
   tool inside a pipeline stage
 - `background-jobs` — for CPU-bound work or work that must survive process
@@ -842,9 +842,9 @@ Test mocking:
 
 ## Related
 
-- **Python project layout, config, venv, pytest:** [`python-internal-tools`](../python-internal-tools/SKILL.md)
+- **Python project layout, config, venv, pytest:** [`python-scripts-and-services`](../python-scripts-and-services/SKILL.md)
 - **Background workers and task queues (asyncio ↔ RQ/Celery):** [`background-jobs`](../background-jobs/SKILL.md)
-- **HTTP client reliability, retries, 429/5xx, backoff:** [`python-internal-tools / http-clients-reliability.md`](../python-internal-tools/http-clients-reliability.md)
+- **HTTP client reliability, retries, 429/5xx, backoff:** [`python-scripts-and-services / http-clients-reliability.md`](../python-scripts-and-services/http-clients-reliability.md)
 - **Debugging async code, tracebacks, profiling:** [`debugging-profiling`](../debugging-profiling/SKILL.md)
 - **Observability for async services (RED metrics, structured logs):** [`observability`](../observability/SKILL.md)
 - **Routing:** [`../../SKILLS.md`](../../SKILLS.md)

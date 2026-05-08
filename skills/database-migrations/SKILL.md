@@ -20,10 +20,10 @@ Patterns for managing database schema changes safely in Python — from simple
 rollback). Covers setup, creating and running migrations, zero-downtime patterns,
 SQLite quirks, testing, and CI/CD deploy gates.
 
-**Related:** [`python-internal-tools/sqlite-patterns.md`](../python-internal-tools/sqlite-patterns.md),
-[`python-internal-tools/reference.md`](../python-internal-tools/reference.md) (§6 DB patterns),
+**Related:** [`python-scripts-and-services/sqlite-patterns.md`](../python-scripts-and-services/sqlite-patterns.md),
+[`python-scripts-and-services/reference.md`](../python-scripts-and-services/reference.md) (§6 DB patterns),
 [`data-pipelines/SKILL.md`](../data-pipelines/SKILL.md) (pipeline state tracking),
-[`python-internal-tools/testing-strategy.md`](../python-internal-tools/testing-strategy.md).
+[`python-scripts-and-services/testing-strategy.md`](../python-scripts-and-services/testing-strategy.md).
 
 ---
 
@@ -747,7 +747,7 @@ def migration_is_current(db_url: str) -> bool:
 
 ## Related
 
-- **Python project layout, config, venv, SQLite patterns:** [`python-internal-tools`](../python-internal-tools/SKILL.md) (see `sqlite-patterns.md`)
+- **Python project layout, config, venv, SQLite patterns:** [`python-scripts-and-services`](../python-scripts-and-services/SKILL.md) (see `sqlite-patterns.md`)
 - **CI gate for running migrations on every PR:** [`ci-cd-pipelines`](../ci-cd-pipelines/SKILL.md)
 - **Zero-downtime deploy checklist:** [`docker-containerization`](../docker-containerization/SKILL.md)
 - **Observability: track migration run success/failure:** [`observability`](../observability/SKILL.md)

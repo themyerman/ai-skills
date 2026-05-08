@@ -14,7 +14,7 @@ description: >-
 
 **CSS** patterns for **internal** tools: **readable** sources, **consistent** spacing, **responsive** without a heavy framework. You may still use **your org** design system; this doc gives **portable** defaults. **Not** a course in every CSS property—focus on what **fails in production**: overflow, z-index battles, **unusable** small tap targets, **print** for exports.
 
-For **HTML structure** and **JS**, use **[web-frontend-basics](../web-frontend-basics/SKILL.md)**. For **contrast, focus, keyboard**, use **[web-accessibility](../web-accessibility/SKILL.md)**. For **Jinja, static, Flask**, use **[`flask-serving.md`](../python-internal-tools/flask-serving.md)** in **python-internal-tools**.
+For **HTML structure** and **JS**, use **[web-frontend-basics](../web-frontend-basics/SKILL.md)**. For **contrast, focus, keyboard**, use **[web-accessibility](../web-accessibility/SKILL.md)**. For **Jinja, static, Flask**, use **[`flask-serving.md`](../python-scripts-and-services/flask-serving.md)** in **python-scripts-and-services**.
 
 **Default read order** (this repo): [web-frontend-basics](../web-frontend-basics/SKILL.md) → **web-layout-css (here)** → [web-accessibility](../web-accessibility/SKILL.md) — also summarized in [`SKILLS.md`](../../SKILLS.md#web-ui-default-reading-order).
 

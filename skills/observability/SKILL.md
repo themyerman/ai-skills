@@ -16,9 +16,9 @@ description: >-
 
 Practical patterns for making **Python internal tools and Flask services** observable: knowing when they are broken, how long things take, and what happened in a run. This covers the **three pillars**, a simple instrumentation model (**RED**), health endpoints, structured log fields, and **SLI/SLO basics** for internal tooling.
 
-For **Python log format, levels, and correlation**: [python-internal-tools / logging-structured.md](../python-internal-tools/logging-structured.md) is the companion file — this skill refers to it rather than duplicating it.
+For **Python log format, levels, and correlation**: [python-scripts-and-services / logging-structured.md](../python-scripts-and-services/logging-structured.md) is the companion file — this skill refers to it rather than duplicating it.
 
-For **what not to log** (PII, tokens, secrets): [data-handling-pii](../data-handling-pii/SKILL.md) and [python-internal-tools / security.md](../python-internal-tools/security.md).
+For **what not to log** (PII, tokens, secrets): [data-handling-pii](../data-handling-pii/SKILL.md) and [python-scripts-and-services / security.md](../python-scripts-and-services/security.md).
 
 ---
 
@@ -340,7 +340,7 @@ logger.info(
 )
 ```
 
-For detail on PII in logs, see [data-handling-pii](../data-handling-pii/SKILL.md). For credential hygiene in logs, see [python-internal-tools / security.md](../python-internal-tools/security.md).
+For detail on PII in logs, see [data-handling-pii](../data-handling-pii/SKILL.md). For credential hygiene in logs, see [python-scripts-and-services / security.md](../python-scripts-and-services/security.md).
 
 ---
 
@@ -413,10 +413,10 @@ Use this when you ship a new Flask service or CLI.
 
 ## Related
 
-- **Structured log format, levels, correlation IDs:** [python-internal-tools / logging-structured.md](../python-internal-tools/logging-structured.md)
+- **Structured log format, levels, correlation IDs:** [python-scripts-and-services / logging-structured.md](../python-scripts-and-services/logging-structured.md)
 - **What not to log (PII, sensitive data):** [data-handling-pii](../data-handling-pii/SKILL.md)
-- **Credential and secret hygiene in logs:** [python-internal-tools / security.md](../python-internal-tools/security.md)
-- **Flask health endpoint + security headers + auth:** [python-internal-tools / flask-serving.md](../python-internal-tools/flask-serving.md)
+- **Credential and secret hygiene in logs:** [python-scripts-and-services / security.md](../python-scripts-and-services/security.md)
+- **Flask health endpoint + security headers + auth:** [python-scripts-and-services / flask-serving.md](../python-scripts-and-services/flask-serving.md)
 - **Docker HEALTHCHECK (maps to /health):** [docker-containerization](../docker-containerization/SKILL.md)
 - **Incident review after an SLO breach:** [blameless-postmortems](../blameless-postmortems/SKILL.md)
 - **Monitoring background workers and job queues:** [`background-jobs`](../background-jobs/SKILL.md)

@@ -34,7 +34,7 @@ A distilled set of **themes** and **checklists** is in [reference.md](reference.
 
 - **Pipelines and exports** (**Jira** CSV, **SQL** extract, **S3** **bucket**): **scope**, **redaction**, **access** before you **ship** a path.
 - **In-product LLM** or **prompt**-based tools: [llm-integrations-safety](../llm-integrations-safety/SKILL.md).
-- **Code-level** **secrets** and **injection** boundaries: [python-internal-tools / security.md](../python-internal-tools/security.md).
+- **Code-level** **secrets** and **injection** boundaries: [python-scripts-and-services / security.md](../python-scripts-and-services/security.md).
 - **Leaks in chat, tickets, wikis:** [secrets-management](../secrets-management/SKILL.md).
 
 | Topic (program level) | See |

@@ -14,7 +14,7 @@
 - **Errors:** associate with the field using **`aria-describedby`** pointing to an `id` on the error text; don’t rely on color alone.
 - **Submit** with `<button type="submit">` (default type is **submit** in many browsers for `button` inside form — be explicit). Avoid `type="button"` for primary save unless you handle submit in JS.
 - **GET** for safe, idempotent **search**; **POST** for state changes. Match **server** method and **CSRF** if you use cookies for session (see **§6**).
-- **File** uploads: `enctype="multipart/form-data"`, `accept` as a hint, **server** must validate type and size [python-internal-tools security](../python-internal-tools/security.md).
+- **File** uploads: `enctype="multipart/form-data"`, `accept` as a hint, **server** must validate type and size [python-scripts-and-services security](../python-scripts-and-services/security.md).
 
 ## 3. Progressive enhancement
 
@@ -26,7 +26,7 @@
 
 - **One** entry per feature area (e.g. `sortable-tables.js`); **avoid** global `var` sprawl. Prefer **`<script type="module">`** or a **single IIFE** with a clear **namespace** object if you must support legacy.
 - **Events:** `addEventListener` — not `onclick` attributes in HTML (keeps **CSP** and separation cleaner).
-- **`fetch`:** always **`await` or `.then`**, check **`response.ok`**, parse **JSON** in `try/catch` — [python-internal-tools http-clients-reliability](../python-internal-tools/http-clients-reliability.md) patterns mirror **server**; on the **client** you also handle **4xx/5xx** and show a **user-visible** message.
+- **`fetch`:** always **`await` or `.then`**, check **`response.ok`**, parse **JSON** in `try/catch` — [python-scripts-and-services http-clients-reliability](../python-scripts-and-services/http-clients-reliability.md) patterns mirror **server**; on the **client** you also handle **4xx/5xx** and show a **user-visible** message.
 - **Don’t** put **secrets** in front-end code; **API** keys in env at **build** time for public SPAs is a product decision — internal tools usually **proxy** through Flask.
 - **User / ticket** text: if it ever goes to an **LLM** or is **injected** into the DOM, follow **llm-integrations-safety** and **escape** (Jinja `{{ }}` is escaped by default).
 
@@ -202,7 +202,7 @@ For multi-file HTML edits prefer the Edit tool (exact string replacement, no reg
 
 - **`url_for('static', filename='js/…')`** for script `src` so deploy paths stay correct.
 - **Pass JSON** to JS with `tojson` filter in a **`<script type="application/json">` id="…"** block, then `JSON.parse` in your module — **not** by pasting unescaped into a JS string (XSS if data ever has `</script>`).
-- Re-read **user-controlled** output rules in [flask-serving](../python-internal-tools/flask-serving.md) §5.
+- Re-read **user-controlled** output rules in [flask-serving](../python-scripts-and-services/flask-serving.md) §5.
 
 ## 9. Checklist (new page or widget)
 
@@ -218,5 +218,5 @@ For multi-file HTML edits prefer the Edit tool (exact string replacement, no reg
 ## 10. When to read more
 
 - **Layout and responsive:** [web-layout-css reference](../web-layout-css/reference.md)  
-- **Flask, auth, headers, CSRF app-wide:** [flask-serving](../python-internal-tools/flask-serving.md)  
-- **Code review of a PR** touching UI: [code-review](../python-internal-tools/code-review.md)
+- **Flask, auth, headers, CSRF app-wide:** [flask-serving](../python-scripts-and-services/flask-serving.md)  
+- **Code review of a PR** touching UI: [code-review](../python-scripts-and-services/code-review.md)

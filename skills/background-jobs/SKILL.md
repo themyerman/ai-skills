@@ -17,7 +17,7 @@ crontab entry to Celery with multiple queues. Starts with the simplest option
 and explains when to graduate to something more complex.
 
 **Related skills:**
-- `python-internal-tools` — config, logging, project layout, testing
+- `python-scripts-and-services` — config, logging, project layout, testing
 - `llm-integrations-safety` — async LLM calls are a common reason to reach for a task queue
 - `observability` — monitoring queue depth and worker health
 
@@ -645,7 +645,7 @@ Secrets: never in task args — load from config file in the task
 
 ## Related
 
-- **Python project layout, config, venv, pytest:** [`python-internal-tools`](../python-internal-tools/SKILL.md)
+- **Python project layout, config, venv, pytest:** [`python-scripts-and-services`](../python-scripts-and-services/SKILL.md)
 - **Async concurrency within a worker (asyncio + httpx):** [`async-python`](../async-python/SKILL.md)
 - **Monitoring workers: RED metrics, SLOs, structured logs:** [`observability`](../observability/SKILL.md)
 - **Data pipelines that fan out work to queues:** [`data-pipelines`](../data-pipelines/SKILL.md)

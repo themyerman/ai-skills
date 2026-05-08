@@ -2,7 +2,7 @@
 name: jira-integration
 description: >-
   Jira from the agent: REST/curl patterns, JQL, fetch tickets, comments,
-  transitions, PR links. For Python PAT tools see python-internal-tools/jira.md.
+  transitions, PR links. For Python PAT tools see python-scripts-and-services/jira.md.
 ---
 
 # Jira Integration
@@ -11,7 +11,7 @@ Retrieve, analyze, and update Jira tickets from an AI coding workflow.
 
 ## This repo: Python + PAT / Data Center
 
-For **internal Python tools** (Bearer PAT, URL allowlists, fail-closed writes), use **[`python-internal-tools/jira.md`](../python-internal-tools/jira.md)**. This skill complements that file with **curl** patterns.
+For **internal Python tools** (Bearer PAT, URL allowlists, fail-closed writes), use **[`python-scripts-and-services/jira.md`](../python-scripts-and-services/jira.md)**. This skill complements that file with **curl** patterns.
 
 ## When to activate
 
@@ -81,4 +81,4 @@ Comment when starting work, when tests land, when PR is open, when done — keep
 ## Related
 
 - **[`secrets-management`](../secrets-management/SKILL.md)** — credential hygiene
-- **[`python-internal-tools/jira.md`](../python-internal-tools/jira.md)** — Python PAT patterns
+- **[`python-scripts-and-services/jira.md`](../python-scripts-and-services/jira.md)** — Python PAT patterns

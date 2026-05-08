@@ -73,7 +73,7 @@
 ## 5. Robust
 
 - **Valid** **HTML** (nesting, unique **ids**). **ARIA** only when **HTML** is insufficient; **no** `role="button"` on **`div`** without **keyboard** handlers matching **button**.
-- **Parse** as **intended** — Jinja that **breaks** **tags** is **a11y** and **security** risk (see [flask-serving](../python-internal-tools/flask-serving.md) escaping).
+- **Parse** as **intended** — Jinja that **breaks** **tags** is **a11y** and **security** risk (see [flask-serving](../python-scripts-and-services/flask-serving.md) escaping).
 
 ---
 
@@ -160,7 +160,7 @@ Set it in server-rendered templates or JS on page load; remove it from all other
 
 - [web-frontend-basics](../web-frontend-basics/SKILL.md) — **forms**, **semantics**  
 - [web-layout-css](../web-layout-css/SKILL.md) — **contrast** with **design** tokens  
-- [code-review.md](../python-internal-tools/code-review.md) — **PR** for **UI** **changes**  
+- [code-review.md](../python-scripts-and-services/code-review.md) — **PR** for **UI** **changes**  
 
 ## 11. Informal WCAG 2.1 mapping (this doc)
 

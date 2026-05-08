@@ -33,7 +33,7 @@ This is **not** a replacement for your organization’s official security, compl
 
 ## Relationship to the rest of this pack
 
-- **Code-level habits:** `python-internal-tools` (security & API sections), `llm-integrations-safety` for in-app LLM use, `web-accessibility` for UIs.
+- **Code-level habits:** `python-scripts-and-services` (security & API sections), `llm-integrations-safety` for in-app LLM use, `web-accessibility` for UIs.
 - **Secrets and sensitive data:** `secrets-management`, `data-handling-pii`.
 
 ## Optional reading (external, general)

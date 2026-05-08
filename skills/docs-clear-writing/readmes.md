@@ -1,6 +1,6 @@
 # READMEs and project front doors
 
-**Hub:** [SKILL.md](SKILL.md) · **Principles:** [reference.md](reference.md) · **Python layout:** [python-internal-tools / documentation.md](../python-internal-tools/documentation.md)
+**Hub:** [SKILL.md](SKILL.md) · **Principles:** [reference.md](reference.md) · **Python layout:** [python-scripts-and-services / documentation.md](../python-scripts-and-services/documentation.md)
 
 A **root `README.md`** is the first thing a **human** and many **tools** read. It should make the **next step** obvious.
 
@@ -29,7 +29,7 @@ A **root `README.md`** is the first thing a **human** and many **tools** read. I
 
 ## 4. `WORK.md` and README
 
-- **`WORK.md`**: **running** **decisions**, **backlog**, “what we shipped this week” — not a second README. [documentation.md](../python-internal-tools/documentation.md) describes the **split** for **Python** repos.  
+- **`WORK.md`**: **running** **decisions**, **backlog**, “what we shipped this week” — not a second README. [documentation.md](../python-scripts-and-services/documentation.md) describes the **split** for **Python** repos.  
 - **No** full **duplicate** of the quickstart: **link** the README from **WORK** for **onboarding**.
 
 ## 5. Checklist (new or overhauled README)

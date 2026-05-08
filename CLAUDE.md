@@ -6,8 +6,8 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 |------------|------|
 | **Partner well with AI** in the editor (context, verify, no secrets, escalation) | [`using-ai-assistants/`](skills/using-ai-assistants/SKILL.md) |
 | **Onboard** to an unfamiliar repo (map + starter CLAUDE.md) | [`codebase-onboarding/`](skills/codebase-onboarding/SKILL.md) |
-| **Python** service/tool: structure, venv, config, pytest, ruff, pyproject, logging, HTTP client, Flask UI, SQLite, PR review | [`python-internal-tools/`](skills/python-internal-tools/SKILL.md) |
-| **Code review** / merge readiness of a Python change | [`python-internal-tools/code-review.md`](skills/python-internal-tools/code-review.md) |
+| **Python** service/tool: structure, venv, config, pytest, ruff, pyproject, logging, HTTP client, Flask UI, SQLite, PR review | [`python-scripts-and-services/`](skills/python-scripts-and-services/SKILL.md) |
+| **Code review** / merge readiness of a Python change | [`python-scripts-and-services/code-review.md`](skills/python-scripts-and-services/code-review.md) |
 | **Debugging** Python: pdb, cProfile, line_profiler, memory leaks, traceback reading | [`debugging-profiling/`](skills/debugging-profiling/SKILL.md) |
 | **Async Python**: asyncio, httpx.AsyncClient, gather, semaphore rate-limiting | [`async-python/`](skills/async-python/SKILL.md) |
 | **Background jobs**: cron scripts, RQ, Celery, task idempotency, retry, dead-letter handling | [`background-jobs/`](skills/background-jobs/SKILL.md) |

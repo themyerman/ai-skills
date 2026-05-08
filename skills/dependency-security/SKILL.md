@@ -20,9 +20,9 @@ index configuration, supply chain hygiene habits, SBOM generation, and license c
 **Scope:** Python internal tools and services. Not a substitute for your org's formal security review program — if a CVE in a dependency affects a production service, follow your org's formal vulnerability response path.
 
 **Related skills:**
-- `python-internal-tools` — pinning in `requirements.txt`, project structure
+- `python-scripts-and-services` — pinning in `requirements.txt`, project structure
 - `secrets-management` — broader security hygiene including CI scanning
-- `python-internal-tools/secrets-scanning-ci.md` — CI secrets and SAST scanning
+- `python-scripts-and-services/secrets-scanning-ci.md` — CI secrets and SAST scanning
 
 ---
 

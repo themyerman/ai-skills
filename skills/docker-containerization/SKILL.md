@@ -21,8 +21,8 @@ through CI image scanning. Not a Docker tutorial; assumes you can run `docker bu
 
 - `secrets-management` — secrets must never be baked into images; use that skill for
   vault patterns, CI secret injection, and gitleaks.
-- `python-internal-tools` — Flask serving (`flask-serving.md`), project layout, venv.
-- `python-internal-tools/security.md` — input validation, API key handling.
+- `python-scripts-and-services` — Flask serving (`flask-serving.md`), project layout, venv.
+- `python-scripts-and-services/security.md` — input validation, API key handling.
 
 ---
 

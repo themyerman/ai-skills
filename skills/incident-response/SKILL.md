@@ -29,7 +29,7 @@ communicate clearly. Root cause analysis comes later, with a calm mind and compl
 - `blameless-postmortems` — the after (RCA, action items)
 - `docs-clear-writing` — communication tone and runbook format
 - `executive-reports` — stakeholder / leadership summaries
-- `python-internal-tools` — hotfix code review, deploy checklist
+- `python-scripts-and-services` — hotfix code review, deploy checklist
 
 ---
 

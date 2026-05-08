@@ -19,7 +19,7 @@ idempotency, and pipeline state tracking.
 
 These patterns apply to internal tooling that processes tickets, API
 responses, and log records on a schedule or in bulk. They complement
-`python-internal-tools` (structure, config, testing) and `shell-csv-pipelines`
+`python-scripts-and-services` (structure, config, testing) and `shell-csv-pipelines`
 (file-based transforms). Use the patterns here whenever your code runs repeatedly,
 processes records in volume, or needs to recover from partial failure.
 
@@ -703,9 +703,9 @@ def check_last_run_health(conn, pipeline_name: str, max_age_hours: int = 25) -> 
 | Need | Skill |
 |---|---|
 | Async task execution, job queues | `background-jobs` |
-| SQLite schema, migrations, parameterized queries | `python-internal-tools` (reference.md §6) |
+| SQLite schema, migrations, parameterized queries | `python-scripts-and-services` (reference.md §6) |
 | Pipeline monitoring, structured logging | `observability` |
 | File-based CSV/TSV transforms, awk pipelines | `shell-csv-pipelines` |
-| Jira REST client, JQL, PAT setup | `python-internal-tools` (jira.md) |
+| Jira REST client, JQL, PAT setup | `python-scripts-and-services` (jira.md) |
 | PII in Jira fields, log scrubbing | `data-handling-pii` |
 | LLM scoring step inside a pipeline | `llm-integrations-safety` |

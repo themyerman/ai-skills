@@ -156,7 +156,7 @@ Typical gains from iPhone photos: 15–28 MB PNG → 700 KB–1.1 MB JPEG (94–
 ## 10. What we skip here
 
 - **Sass/PostCSS** — fine; keep **output** debuggable.
-- **Tailwind** — if you use it, this skill is **rare**; use **a11y** and **flask** docs from **python-internal-tools** for structure.
+- **Tailwind** — if you use it, this skill is **rare**; use **a11y** and **flask** docs from **python-scripts-and-services** for structure.
 
 ## 11. Checklist
 
@@ -172,4 +172,4 @@ Typical gains from iPhone photos: 15–28 MB PNG → 700 KB–1.1 MB JPEG (94–
 
 - [web-frontend-basics](../web-frontend-basics/SKILL.md) — HTML/JS
 - [web-accessibility](../web-accessibility/SKILL.md) — focus, color, reduced motion
-- [flask-serving](../python-internal-tools/flask-serving.md) — Jinja, static
+- [flask-serving](../python-scripts-and-services/flask-serving.md) — Jinja, static

@@ -39,7 +39,7 @@ Read your current **data handling**, **person or customer** data definitions, **
 
 | Tier | Examples (illustrative) | Default engineering posture |
 |------|---------------------------|----------------------------|
-| **Credentials** | API keys, passwords, session tokens | [security.md](../python-internal-tools/security.md): do not log; do not paste in tickets. |
+| **Credentials** | API keys, passwords, session tokens | [security.md](../python-scripts-and-services/security.md): do not log; do not paste in tickets. |
 | **Identifier / contact** (often PII) | Email, name, phone, person-linked IDs | Minimize; avoid in default log lines; prefer opaque internal IDs. |
 | **System / internal** | Hosts, Jira keys | Often lower risk; still be careful in public or competitive settings. |
 | **User-generated content** | Ticket bodies, pasted email | **Untrusted**; use [llm-integrations-safety](../llm-integrations-safety/SKILL.md) when sending to models. |
@@ -62,7 +62,7 @@ Map to your org’s **named** tiers (Confidential, PII, and so on) when you need
 - By default, avoid full emails, phone numbers, and legal names in `INFO`/`ERROR` lines unless you have an allowlist. Prefer opaque or internal numeric IDs. Traces and error trackers: avoid unbounded ticket bodies or free text as **tags** that get indexed widely.
 - Error bodies from **external** APIs can contain PII: truncate, redact, or avoid persisting without a clear need.
 
-*Python field patterns:* [logging-structured.md](../python-internal-tools/logging-structured.md).
+*Python field patterns:* [logging-structured.md](../python-scripts-and-services/logging-structured.md).
 
 ---
 

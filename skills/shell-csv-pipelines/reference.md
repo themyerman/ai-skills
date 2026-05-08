@@ -80,7 +80,7 @@ When a script **already exists** in your org’s tree, **extend or call it** ins
 
 - **No secrets in scripts** (tokens, internal URLs with embedded keys). Pass via **env vars** or a **config file** read by a program that is not world-readable in your threat model.
 - **Don’t** `export` credentials needlessly; scope variables to the script.
-- If you `curl` or `ssh` in shell, use the same rules as in **python-internal-tools** / **security.md** (no tokens in URLs, timeouts, don’t log bodies).
+- If you `curl` or `ssh` in shell, use the same rules as in **python-scripts-and-services** / **security.md** (no tokens in URLs, timeouts, don’t log bodies).
 
 ---
 
@@ -125,7 +125,7 @@ trap 'rm -f -- "$tmp"' EXIT
 
 ## 12. Ties to Python and Jira
 
-- **Read-only** shaping of Jira **exports** in shell is fine; **Jira writes** (REST, PAT, allowlists) belong in **Python** with tests—see **python-internal-tools** and **jira.md** there.
+- **Read-only** shaping of Jira **exports** in shell is fine; **Jira writes** (REST, PAT, allowlists) belong in **Python** with tests—see **python-scripts-and-services** and **jira.md** there.
 - If the pipeline grows **regex** that must stay in sync with product behavior, that’s a sign to **move the rule** into a **Python** module and call it from CI.
 
 ---

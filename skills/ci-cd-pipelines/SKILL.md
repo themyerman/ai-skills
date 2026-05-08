@@ -666,7 +666,7 @@ deploy:
 - **Secrets hygiene, leak response, policy:** [`secrets-management`](../secrets-management/SKILL.md)
 - **Docker build and push in CD:** [`docker-containerization`](../docker-containerization/SKILL.md)
 - **Dependency auditing (pip-audit, Dependabot, CVE triage):** [`dependency-security`](../dependency-security/SKILL.md)
-- **Python service structure, venv, pytest, Flask:** [`python-internal-tools`](../python-internal-tools/SKILL.md)
+- **Python service structure, venv, pytest, Flask:** [`python-scripts-and-services`](../python-scripts-and-services/SKILL.md)
 - **Git branch naming, commit messages, PR hygiene:** [`git-workflow`](../git-workflow/SKILL.md)
 - **Routing:** [`../../SKILLS.md`](../../SKILLS.md)
 

@@ -35,7 +35,7 @@ Use with **[readmes.md](readmes.md)**, **[installation-guides.md](installation-g
 ## 6. Visuals
 
 - **Screenshot** when the **UI** is unguessable; **re-record** or **date** the caption if it goes stale.  
-- **Diagram** when **roles** or **data flow** are easier than prose; **threat/DFD** in `docs/` per [python-internal-tools / documentation.md](../python-internal-tools/documentation.md).
+- **Diagram** when **roles** or **data flow** are easier than prose; **threat/DFD** in `docs/` per [python-scripts-and-services / documentation.md](../python-scripts-and-services/documentation.md).
 
 ## 7. Maintenance
 
@@ -48,8 +48,8 @@ Use with **[readmes.md](readmes.md)**, **[installation-guides.md](installation-g
 | Need | See |
 |------|-----|
 | **Exec** tone, appendices, BLUF | [executive-reports](../executive-reports/SKILL.md) |
-| **Python** repo `README` / `WORK` / `docs/` layout | [python-internal-tools / documentation.md](../python-internal-tools/documentation.md) |
-| **PR** for doc+code | [code-review.md](../python-internal-tools/code-review.md) |
+| **Python** repo `README` / `WORK` / `docs/` layout | [python-scripts-and-services / documentation.md](../python-scripts-and-services/documentation.md) |
+| **PR** for doc+code | [code-review.md](../python-scripts-and-services/code-review.md) |
 | **html** in browser UI (not prose craft) | [web-frontend-basics](../web-frontend-basics/SKILL.md) |
 | **Plain**, **accessible** **wording** (not cutesy) | [plain-english](plain-english.md) |
 

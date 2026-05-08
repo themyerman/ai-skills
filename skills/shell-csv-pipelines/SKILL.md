@@ -5,14 +5,14 @@ description: >-
   client): 1-based columns, delimiters, awk/cut, pipes, set -euo pipefail,
   quoting, safe loops, xargs -0, parallel, shellcheck, when to switch to Python.
   Triggers: .sh, shell script, wrangle export, one-liner, bulk text transform,
-  awk one-liner, CSV pipeline. For Jira API/PAT/CLI: python-internal-tools jira.
+  awk one-liner, CSV pipeline. For Jira API/PAT/CLI: python-scripts-and-services jira.
 ---
 
 # shell-csv-pipelines
 
 ## What this is
 
-A single place for **safe, boring shell** on **text and CSV** (exports, Jira field dumps, awk, list normalizers, thin `find`/`ps` wrappers). For **Jira API clients, PATs, and Python** business logic, use **python-internal-tools** and **jira.md** there.
+A single place for **safe, boring shell** on **text and CSV** (exports, Jira field dumps, awk, list normalizers, thin `find`/`ps` wrappers). For **Jira API clients, PATs, and Python** business logic, use **python-scripts-and-services** and **jira.md** there.
 
 ## When to use
 
@@ -32,7 +32,7 @@ A single place for **safe, boring shell** on **text and CSV** (exports, Jira fie
 
 ## Related
 
-- **python-internal-tools** (incl. **jira.md**, **security.md**)
+- **python-scripts-and-services** (incl. **jira.md**, **security.md**)
 - **llm-integrations-safety** (not for shell; for LLM + untrusted text in code)
 
 ## Source

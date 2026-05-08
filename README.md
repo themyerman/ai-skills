@@ -28,7 +28,7 @@ For Cursor, run the installer script to symlink skills into a workspace:
 
 | Skill | What it covers |
 |-------|----------------|
-| [python-internal-tools](skills/python-internal-tools/SKILL.md) | Project structure, config, DB, testing, Flask, CLI |
+| [python-scripts-and-services](skills/python-scripts-and-services/SKILL.md) | Project structure, config, DB, testing, Flask, CLI |
 | [async-python](skills/async-python/SKILL.md) | asyncio, httpx.AsyncClient, gather, semaphore rate-limiting |
 | [debugging-profiling](skills/debugging-profiling/SKILL.md) | pdb, cProfile, line_profiler, memory leaks, traceback reading |
 | [data-pipelines](skills/data-pipelines/SKILL.md) | ETL patterns, idempotency, incremental load, chunking, backfill |
