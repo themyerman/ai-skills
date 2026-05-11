@@ -36,6 +36,14 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Credentials and secrets**: no plaintext in chat or CI; .env, Docker, K8s, gitleaks; leak response | [`secrets-management/`](skills/secrets-management/SKILL.md) |
 | **Shift-left security culture** | [`shift-left-security/`](skills/shift-left-security/SKILL.md) |
 | **Pre-PR / pre-release security review**: threat model stub, punchlist, needs-review determination | [`security-review-advisor/`](skills/security-review-advisor/SKILL.md) |
+| **Security measurement**: coverage floors, MTTR, aging report, exec update template | [`appsec-metrics/`](skills/appsec-metrics/SKILL.md) |
+| **CVE lifecycle**: triage, CVSS in context, SLA tiers, exception format, aging | [`cve-lifecycle/`](skills/cve-lifecycle/SKILL.md) |
+| **Zero trust architecture**: five planes, maturity model, mTLS, JIT access | [`zero-trust-design/`](skills/zero-trust-design/SKILL.md) |
+| **Identity and authorization**: RBAC vs ABAC, AWS IAM, permission boundaries, cross-account, app-level authz | [`identity-authz/`](skills/identity-authz/SKILL.md) |
+| **API security**: OWASP API Top 10, BOLA, OAuth2/JWT, rate limiting, GraphQL, security headers | [`api-security/`](skills/api-security/SKILL.md) |
+| **Supply chain integrity**: SLSA, Sigstore/cosign signing, SBOM, dependency integrity, incident response | [`supply-chain-integrity/`](skills/supply-chain-integrity/SKILL.md) |
+| **Feature flags**: safe rollout, kill switch patterns, security boundaries, flag hygiene | [`feature-flags/`](skills/feature-flags/SKILL.md) |
+| **Kubernetes security**: RBAC, NetworkPolicy, security contexts, PSS, resource limits, troubleshooting | [`kubernetes-security/`](skills/kubernetes-security/SKILL.md) |
 | **Executive or stakeholder one-pager**: BLUF, who-reads-what, limitations, appendices | [`executive-reports/`](skills/executive-reports/SKILL.md) |
 | **Brainstorm / ideation**: diverge then converge, SCAMPER, structured patterns | [`brainstorming-ideation/`](skills/brainstorming-ideation/SKILL.md) |
 | **Decision-making**: decision matrix, RICE, DACI, reversible vs irreversible, pre-mortem, decision record | [`decision-making/`](skills/decision-making/SKILL.md) |
