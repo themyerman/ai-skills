@@ -24,6 +24,7 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Jira** from the agent (REST API, JQL, PAT) | [`jira-integration/`](skills/jira-integration/SKILL.md) |
 | **Automation inventory** (hooks, CI, MCP, overlap) | [`automation-audit/`](skills/automation-audit/SKILL.md) |
 | **Observability**: health check endpoints, metrics (RED method), structured log fields, alerting, SLOs | [`observability/`](skills/observability/SKILL.md) |
+| **Deploy readiness**: observability, alerts, rollback plan, runbook, capacity, security posture — READY / NOT READY | [`deploy-readiness/`](skills/deploy-readiness/SKILL.md) |
 | **Bash** / awk / cut on CSVs; set -euo pipefail; when to use Python instead | [`shell-csv-pipelines/`](skills/shell-csv-pipelines/SKILL.md) |
 | **macOS shell scripts** (sips, osascript, keychain, launchd, AI API wrappers) | [`shell-macos-scripts/`](skills/shell-macos-scripts/SKILL.md) |
 | **Workspace capability audit** (what's configured vs missing) | [`environment-audit/`](skills/environment-audit/SKILL.md) |
