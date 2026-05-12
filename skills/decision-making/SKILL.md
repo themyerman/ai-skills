@@ -176,7 +176,7 @@ Write down:
 4. **Who decided** — the Approver's name (DACI).
 5. **When** — date.
 
-A one-paragraph decision record is enough for most choices. For large architectural decisions that need async input from many reviewers, use **[`technical-rfcs`](../technical-rfcs/SKILL.md)**. For formal ADR format, use **[`docs-clear-writing/adr-architecture-decisions.md`](../docs-clear-writing/adr-architecture-decisions.md)**.
+A one-paragraph decision record is enough for most choices. For large architectural decisions that need async input from many reviewers, use **[`technical-rfcs`](../technical-rfcs/SKILL.md)**. For formal ADR format, use **[`docs-clear-writing/adr-architecture-decisions.md`](../product-writing/SKILL.md)**.
 
 Store the record where future teammates will find it: a `docs/decisions/` directory, a linked Confluence page, or the relevant Jira ticket. Do not store it only in a Slack thread.
 
@@ -255,7 +255,7 @@ This skill handles the decision method. For the following, hand off to the right
 - Generate the options before deciding: **[`brainstorming-ideation`](../brainstorming-ideation/SKILL.md)**
 - Large decisions needing async written input: **[`technical-rfcs`](../technical-rfcs/SKILL.md)**
 - Initiative prioritization with PRD-lite: **[`product-management`](../product-management/SKILL.md)**
-- Formal ADR format: **[`docs-clear-writing/adr-architecture-decisions.md`](../docs-clear-writing/adr-architecture-decisions.md)**
+- Formal ADR format: **[`docs-clear-writing/adr-architecture-decisions.md`](../product-writing/SKILL.md)**
 - Pre-mortem as a full facilitated technique: **[`brainstorming-ideation/reference.md`](../brainstorming-ideation/reference.md)**
 - Post-decision incident analysis: **[`blameless-postmortems`](../blameless-postmortems/SKILL.md)**
 

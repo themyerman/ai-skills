@@ -33,11 +33,11 @@ A **repeatable gate** so **large** or **security-relevant** changes do not land 
 
 | Topic | Where |
 |--------|--------|
-| **Secrets** in the **diff** / **history** | **[`secrets-management`](../secrets-management/SKILL.md)**; **CI** patterns in **[`secrets-scanning-ci.md`](../python-scripts-and-services/secrets-scanning-ci.md)** (Python repo). |
+| **Secrets** in the **diff** / **history** | **[`secrets-management`](../secrets-management/SKILL.md)**; **CI** patterns in **[`secrets-scanning-ci.md`](../ci-cd-pipelines/SKILL.md)** (Python repo). |
 | **Repo ownership contact** | Keep repo contact metadata (e.g. owner, team Slack channel) accurate for security reachability. |
-| **SAST / dependency / manual security pass** | **[`security-code-audit.md`](../python-scripts-and-services/security-code-audit.md)** + **[`security.md`](../python-scripts-and-services/security.md)**. |
+| **SAST / dependency / manual security pass** | **[`security-code-audit.md`](../security-review-advisor/SKILL.md)** + **[`security.md`](../python-scripts-and-services/security.md)**. |
 | **Tests worth shipping** | **[`testing-strategy.md`](../python-scripts-and-services/testing-strategy.md)** (boundaries, **perf**, **flakiness**). |
-| **HTTP APIs you own** | **[`api-http-service-design.md`](../python-scripts-and-services/api-http-service-design.md)**. |
+| **HTTP APIs you own** | **[`api-http-service-design.md`](../api-security/SKILL.md)**. |
 | **Browser UI** (Jinja/**Flask**, templates, **`static/`**) | **[`web-frontend-basics`](../web-frontend-basics/SKILL.md)** · **[`flask-serving.md`](../python-scripts-and-services/flask-serving.md)**. |
 
 ## Printable checklist

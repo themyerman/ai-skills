@@ -250,7 +250,7 @@ Never tag a feature or release branch. Merge first, verify CI passes on `main`, 
 
 ### Keep a CHANGELOG
 
-Update `CHANGELOG.md` (or `WORK.md` if that is your team's convention) before tagging. Use the tag message as the release entry. See **[`docs-clear-writing / changelog-release-notes.md`](../docs-clear-writing/changelog-release-notes.md)** for format guidance.
+Update `CHANGELOG.md` (or `WORK.md` if that is your team's convention) before tagging. Use the tag message as the release entry. See **[`docs-clear-writing / changelog-release-notes.md`](../docs-clear-writing/SKILL.md)** for format guidance.
 
 ---
 
@@ -392,7 +392,7 @@ git push --force-with-lease origin feature/PROJ-456-bulk-triage
 
 - **Pre-merge quality gate** (tests, README, TM alignment): **[`ship-checklist`](../ship-checklist/SKILL.md)**
 - **Lint, type-check, test before push**: **[`pre-pr-checklist`](../pre-pr-checklist/SKILL.md)**
-- **CHANGELOG and release notes format**: **[`docs-clear-writing / changelog-release-notes.md`](../docs-clear-writing/changelog-release-notes.md)**
+- **CHANGELOG and release notes format**: **[`docs-clear-writing / changelog-release-notes.md`](../docs-clear-writing/SKILL.md)**
 - **`.gitignore` for secrets, CI scanning, gitleaks**: **[`secrets-management`](../secrets-management/SKILL.md)**
 - **Routing**: [`../../SKILLS.md`](../../SKILLS.md)
 

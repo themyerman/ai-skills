@@ -10,7 +10,7 @@ Use before **merging** a **large** or **security-relevant** change. **Check** ev
 - [ ] Same **job** (or documented **subset**) you expect **CI** to run — **no** drift vs `.github/` / Jenkins / etc.  
 - [ ] **`ruff`** / **`flake8`** / **`mypy`** — **green** if the repo enforces them  
 - [ ] **No** new **`xfail`** without **ticket** and **owner**  
-- [ ] **Secrets scan** in CI or locally per **[`secrets-scanning-ci.md`](../python-scripts-and-services/secrets-scanning-ci.md)** (if not already in pipeline)
+- [ ] **Secrets scan** in CI or locally per **[`secrets-scanning-ci.md`](../ci-cd-pipelines/SKILL.md)** (if not already in pipeline)
 
 ---
 
@@ -27,13 +27,13 @@ Use before **merging** a **large** or **security-relevant** change. **Check** ev
 
 - [ ] **Threat model** (or equivalent in **`docs/`**) **updated** if **trust boundaries**, **data**, or **sensitive** flows changed — or a **security ticket linked** with an explicit "TM **follow-up**" plan; follow your org's formal security review intake when required  
 - [ ] **No secrets** in diff; **PII** / **classification** in **logs** and **exports** reviewed per **[`data-handling-pii`](../data-handling-pii/SKILL.md)** where relevant  
-- [ ] **Optional** but recommended: quick pass **[`security-code-audit.md`](../python-scripts-and-services/security-code-audit.md)** for **SAST** / **deps** / **manual** hotspots
+- [ ] **Optional** but recommended: quick pass **[`security-code-audit.md`](../security-review-advisor/SKILL.md)** for **SAST** / **deps** / **manual** hotspots
 
 ---
 
 ## API & performance (when applicable)
 
-- [ ] **Public HTTP** surface — **[`api-http-service-design.md`](../python-scripts-and-services/api-http-service-design.md)** (errors, **idempotency**, **versioning**) reviewed if routes or contracts changed  
+- [ ] **Public HTTP** surface — **[`api-http-service-design.md`](../api-security/SKILL.md)** (errors, **idempotency**, **versioning**) reviewed if routes or contracts changed  
 - [ ] **Performance** — **critical** paths: new **N+1**, **unbounded** queries, or **hot** loops have a **plan** (test, **benchmark**, or **ticket**)
 
 ---
