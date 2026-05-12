@@ -45,6 +45,17 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Supply chain integrity**: SLSA, Sigstore/cosign signing, SBOM, dependency integrity, incident response | [`supply-chain-integrity/`](skills/supply-chain-integrity/SKILL.md) |
 | **Feature flags**: safe rollout, kill switch patterns, security boundaries, flag hygiene | [`feature-flags/`](skills/feature-flags/SKILL.md) |
 | **Kubernetes security**: RBAC, NetworkPolicy, security contexts, PSS, resource limits, troubleshooting | [`kubernetes-security/`](skills/kubernetes-security/SKILL.md) |
+| **SQL patterns**: indexing, EXPLAIN, CTEs, window functions, N+1, pagination, upsert | [`sql-patterns/`](skills/sql-patterns/SKILL.md) |
+| **REST API design**: resource naming, HTTP verbs, status codes, versioning, pagination, OpenAPI | [`rest-api-design/`](skills/rest-api-design/SKILL.md) |
+| **Testing strategy**: test pyramid, TDD, mocking, test doubles, property-based, coverage, flaky tests | [`testing-strategy/`](skills/testing-strategy/SKILL.md) |
+| **Cloud security posture**: GuardDuty, Config rules, CloudTrail, IAM Access Analyzer, SCPs, misconfigurations | [`cloud-security/`](skills/cloud-security/SKILL.md) |
+| **Threat modeling**: DFD, trust boundaries, STRIDE, attack trees, threat model document | [`threat-modeling/`](skills/threat-modeling/SKILL.md) |
+| **Penetration testing basics**: recon, OWASP Top 10, Burp Suite, SQLi, XSS, SSRF, reporting | [`pentest-basics/`](skills/pentest-basics/SKILL.md) |
+| **Art business**: pricing prints, limited editions, licensing, consignment, commissions, Patreon, taxes | [`art-business/`](skills/art-business/SKILL.md) |
+| **SEO for artists**: image SEO, keyword research, alt text, Search Console, structured data, backlinks | [`seo-for-artists/`](skills/seo-for-artists/SKILL.md) |
+| **Nonprofit communications**: donor appeals, grant writing, impact reporting, stewardship, newsletters | [`nonprofit-comms/`](skills/nonprofit-comms/SKILL.md) |
+| **Code mentoring**: feedback, pairing, teaching debugging, 1:1s, calibrating to learner level | [`code-mentoring/`](skills/code-mentoring/SKILL.md) |
+| **Architecture diagrams**: C4 model, sequence diagrams, Mermaid, AWS diagrams, draw.io, Excalidraw | [`architecture-diagrams/`](skills/architecture-diagrams/SKILL.md) |
 | **Executive or stakeholder one-pager**: BLUF, who-reads-what, limitations, appendices | [`executive-reports/`](skills/executive-reports/SKILL.md) |
 | **Brainstorm / ideation**: diverge then converge, SCAMPER, structured patterns | [`brainstorming-ideation/`](skills/brainstorming-ideation/SKILL.md) |
 | **Decision-making**: decision matrix, RICE, DACI, reversible vs irreversible, pre-mortem, decision record | [`decision-making/`](skills/decision-making/SKILL.md) |
