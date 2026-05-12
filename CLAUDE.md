@@ -56,6 +56,14 @@ Before non-trivial work, if the task matches a goal below, read the correspondin
 | **Nonprofit communications**: donor appeals, grant writing, impact reporting, stewardship, newsletters | [`nonprofit-comms/`](skills/nonprofit-comms/SKILL.md) |
 | **Code mentoring**: feedback, pairing, teaching debugging, 1:1s, calibrating to learner level | [`code-mentoring/`](skills/code-mentoring/SKILL.md) |
 | **Architecture diagrams**: C4 model, sequence diagrams, Mermaid, AWS diagrams, draw.io, Excalidraw | [`architecture-diagrams/`](skills/architecture-diagrams/SKILL.md) |
+| **Photography fundamentals**: exposure triangle, light, composition, RAW, histogram, wildlife/nature, post-processing | [`photography-fundamentals/`](skills/photography-fundamentals/SKILL.md) |
+| **Social media for artists**: Instagram strategy, process reels, audience building, TikTok, converting followers | [`social-media-for-artists/`](skills/social-media-for-artists/SKILL.md) |
+| **Artist statement writing**: statements, bios, series descriptions, wall text, grant bios | [`artist-statement-writing/`](skills/artist-statement-writing/SKILL.md) |
+| **Creative process**: working in series, concept development, creative blocks, sketchbook, sustaining practice | [`creative-process/`](skills/creative-process/SKILL.md) |
+| **Color theory**: color models, harmony, value, warm/cool, simultaneous contrast, palette building | [`color-theory/`](skills/color-theory/SKILL.md) |
+| **Exhibition proposals**: gallery submissions, residency applications, project statements, artist CV, juried shows | [`exhibition-proposals/`](skills/exhibition-proposals/SKILL.md) |
+| **Video process content**: screen recording, timelapse, voiceover, editing, Reels/TikTok, Patreon video | [`video-process-content/`](skills/video-process-content/SKILL.md) |
+| **Typography**: type categories, pairing, hierarchy, scale, spacing, type as design element | [`typography/`](skills/typography/SKILL.md) |
 | **Executive or stakeholder one-pager**: BLUF, who-reads-what, limitations, appendices | [`executive-reports/`](skills/executive-reports/SKILL.md) |
 | **Brainstorm / ideation**: diverge then converge, SCAMPER, structured patterns | [`brainstorming-ideation/`](skills/brainstorming-ideation/SKILL.md) |
 | **Decision-making**: decision matrix, RICE, DACI, reversible vs irreversible, pre-mortem, decision record | [`decision-making/`](skills/decision-making/SKILL.md) |
